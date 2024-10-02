@@ -15,7 +15,7 @@ D:/Programming/TeamProject/TeamPlatformer/TeamPlatformer
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54330
+55229
 Successfully changed project path to: D:/Programming/TeamProject/TeamPlatformer/TeamPlatformer
 D:/Programming/TeamProject/TeamPlatformer/TeamPlatformer
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,16 +49,16 @@ D:/Programming/TeamProject/TeamPlatformer/TeamPlatformer
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15480]  Target information:
+Player connection [4560]  Target information:
 
-Player connection [15480]  * "[IP] 26.19.223.162 [Port] 0 [Flags] 2 [Guid] 3689763053 [EditorId] 3689763053 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CFREUVU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [4560]  * "[IP] 26.19.223.162 [Port] 0 [Flags] 2 [Guid] 2887342193 [EditorId] 2887342193 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CFREUVU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15480]  * "[IP] 192.168.100.96 [Port] 0 [Flags] 2 [Guid] 3689763053 [EditorId] 3689763053 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CFREUVU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [4560]  * "[IP] 192.168.100.96 [Port] 0 [Flags] 2 [Guid] 2887342193 [EditorId] 2887342193 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CFREUVU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15480] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15480] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4560] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4560] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 23.97 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 28.63 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.48f1 (8bf49c377ebf)
 [Subsystems] Discovering subsystems at path D:/Unity/Unity Editor/2022.3.48f1/Editor/Data/Resources/UnitySubsystems
@@ -74,46 +74,46 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Unity Editor/2022.3.48f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/Unity Editor/2022.3.48f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/Unity Editor/2022.3.48f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Unity Editor/2022.3.48f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/Unity Editor/2022.3.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006456 seconds.
-- Loaded All Assemblies, in  0.664 seconds
+Registered in 0.010573 seconds.
+- Loaded All Assemblies, in  0.722 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.502 seconds
-Domain Reload Profiling: 1166ms
-	BeginReloadAssembly (253ms)
+- Finished resetting the current domain, in  0.439 seconds
+Domain Reload Profiling: 1160ms
+	BeginReloadAssembly (277ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (85ms)
-	LoadAllAssembliesAndSetupDomain (256ms)
-		LoadAssemblies (253ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (276ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (252ms)
-			TypeCache.Refresh (250ms)
-				TypeCache.ScanAssembly (217ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (266ms)
+				TypeCache.ScanAssembly (244ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (503ms)
+	FinalizeReload (439ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (427ms)
+		SetupLoadedEditorAssemblies (364ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (324ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -122,7 +122,7 @@ Domain Reload Profiling: 1166ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.442 seconds
+- Loaded All Assemblies, in  1.502 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -130,47 +130,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.359 seconds
-Domain Reload Profiling: 2800ms
-	BeginReloadAssembly (350ms)
+- Finished resetting the current domain, in  1.084 seconds
+Domain Reload Profiling: 2587ms
+	BeginReloadAssembly (300ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (58ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (69ms)
 	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (958ms)
-		LoadAssemblies (842ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (1047ms)
+		LoadAssemblies (888ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (353ms)
-			TypeCache.Refresh (298ms)
-				TypeCache.ScanAssembly (262ms)
-			ScanForSourceGeneratedMonoScriptInfo (43ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (1360ms)
+		AnalyzeDomain (367ms)
+			TypeCache.Refresh (321ms)
+				TypeCache.ScanAssembly (292ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1084ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (973ms)
+		SetupLoadedEditorAssemblies (824ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (115ms)
-			ProcessInitializeOnLoadAttributes (751ms)
-			ProcessInitializeOnLoadMethodAttributes (84ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (647ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 7.17 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 23.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4028 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (241.2 KB). Loaded Objects now: 4491.
+Unloading 4029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (241.4 KB). Loaded Objects now: 4493.
 Memory consumption went from 140.6 MB to 140.4 MB.
-Total: 12.973000 ms (FindLiveObjects: 0.909100 ms CreateObjectMapping: 0.431100 ms MarkObjects: 10.861500 ms  DeleteObjects: 0.768000 ms)
+Total: 9.124600 ms (FindLiveObjects: 0.623100 ms CreateObjectMapping: 0.186600 ms MarkObjects: 7.930600 ms  DeleteObjects: 0.381400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,65 +187,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 180560.587380 seconds.
-  path: Assets/Tiles/Floor.asset
-  artifactKey: Guid(81fd25dcd7e63324cb48fe4ba020df9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Floor.asset using Guid(81fd25dcd7e63324cb48fe4ba020df9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bf35acf7b7931621011df470fa007032') in 0.157009 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.511 seconds
+- Loaded All Assemblies, in  5.236 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.047 seconds
-Domain Reload Profiling: 2562ms
-	BeginReloadAssembly (844ms)
+- Finished resetting the current domain, in  0.978 seconds
+Domain Reload Profiling: 6215ms
+	BeginReloadAssembly (4099ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (604ms)
+		DisableScriptedObjects (3714ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (571ms)
-		LoadAssemblies (695ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (998ms)
+		LoadAssemblies (1149ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (31ms)
-			TypeCache.Refresh (17ms)
+		AnalyzeDomain (64ms)
+			TypeCache.Refresh (23ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1048ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (979ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (740ms)
+		SetupLoadedEditorAssemblies (709ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (581ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (550ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
 			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 7.92 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 10.18 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4022 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (213.5 KB). Loaded Objects now: 4502.
-Memory consumption went from 144.0 MB to 143.8 MB.
-Total: 6.340000 ms (FindLiveObjects: 0.720900 ms CreateObjectMapping: 0.209800 ms MarkObjects: 5.029800 ms  DeleteObjects: 0.375800 ms)
+Unloading 4024 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (213.3 KB). Loaded Objects now: 4498.
+Memory consumption went from 139.9 MB to 139.7 MB.
+Total: 9.041200 ms (FindLiveObjects: 1.696300 ms CreateObjectMapping: 0.988100 ms MarkObjects: 5.979100 ms  DeleteObjects: 0.375000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -254,6 +245,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/CameraPlayer.cs: dcb7d56addd289ead623509b38ce9e24 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -262,669 +254,127 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 86.161045 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_1.asset
-  artifactKey: Guid(e9a7df2230fadbe4eb988955ed894884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_1.asset using Guid(e9a7df2230fadbe4eb988955ed894884) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5f34e45da8dab94b6c3f4780196efb9c') in 0.100879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_14.asset
-  artifactKey: Guid(2e94263ca07b36b4c9446f0d2ce4ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_14.asset using Guid(2e94263ca07b36b4c9446f0d2ce4ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fba59b2154f65e89ecace95f0d1f190e') in 0.032562 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_36.asset
-  artifactKey: Guid(4ed2be8ce6315fc4588e37237e5098f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_36.asset using Guid(4ed2be8ce6315fc4588e37237e5098f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '37081e23e82a487723e72cc8ee52040d') in 0.028269 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_15.asset
-  artifactKey: Guid(d67de3e75b3a14b4b8b7765ab6880466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_15.asset using Guid(d67de3e75b3a14b4b8b7765ab6880466) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0891edb2e816be1d97903f49b5fa0328') in 0.023657 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_23.asset
-  artifactKey: Guid(516a1b3776bb5c946a8f8b8ffe6ce679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_23.asset using Guid(516a1b3776bb5c946a8f8b8ffe6ce679) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bcbea304333ca15b79422df55f9f1257') in 0.027820 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_12.asset
-  artifactKey: Guid(97ddaea1d5b9d134fbe7bbd6137fc0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_12.asset using Guid(97ddaea1d5b9d134fbe7bbd6137fc0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a39a224daa9bfcaabfb1bba214649640') in 0.029263 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_32.asset
-  artifactKey: Guid(ca290166819f0b74e99962b7e09a5c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_32.asset using Guid(ca290166819f0b74e99962b7e09a5c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '5109ed95adc7c46b24d084bfe726c14f') in 0.022852 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_11.asset
-  artifactKey: Guid(ac049feaeffe5154085f435c417ec908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_11.asset using Guid(ac049feaeffe5154085f435c417ec908) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b8b70127d89415c83dd91567e2055b4c') in 0.024419 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_30.asset
-  artifactKey: Guid(f63a06459ed37c04185afea882c32c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_30.asset using Guid(f63a06459ed37c04185afea882c32c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '968924bbbeb9abaaf550e877a8b50f85') in 0.025166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_9.asset
-  artifactKey: Guid(33e0b48a534f937468bae6591752a8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_9.asset using Guid(33e0b48a534f937468bae6591752a8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '7a8abd59d640c4ea7c1cc69c46cd321a') in 0.024080 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_33.asset
-  artifactKey: Guid(832c32f97572fbb4e904866fd49667c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_33.asset using Guid(832c32f97572fbb4e904866fd49667c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bfb81182b4187183d18ee97ab9423fef') in 0.026425 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_26.asset
-  artifactKey: Guid(98eb02dc8276da04fa9e51dce2a6329a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_26.asset using Guid(98eb02dc8276da04fa9e51dce2a6329a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c8c70594cc5a6035b0cd394a776a22fe') in 0.026183 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_24.asset
-  artifactKey: Guid(d6bc33b4b5184354baa6cbe5d3eff26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_24.asset using Guid(d6bc33b4b5184354baa6cbe5d3eff26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '72c2fcf5ea911afe6c4c028f4f356301') in 0.021296 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_38.asset
-  artifactKey: Guid(921b1cbf898494c4ca6dbd24ccd2487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_38.asset using Guid(921b1cbf898494c4ca6dbd24ccd2487a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cdb07918fe918d8d7fae26b6bccc5540') in 0.026372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_3.asset
-  artifactKey: Guid(8410ecb556a4b5a42bd9e7a9a1285793) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_3.asset using Guid(8410ecb556a4b5a42bd9e7a9a1285793) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e7dc7d7fd58266ff4b5add55d0737d51') in 0.027397 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_8.asset
-  artifactKey: Guid(5492f5426d87e0949acc9e1dc71b89a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_8.asset using Guid(5492f5426d87e0949acc9e1dc71b89a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1e81cf115f4b97905a33b2982e51f002') in 0.025453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_31.asset
-  artifactKey: Guid(0bbdca6e7a1ebc740ad8644bf472b8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_31.asset using Guid(0bbdca6e7a1ebc740ad8644bf472b8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a3159b4749513d3f306994b50c3f4bc6') in 0.028175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_18.asset
-  artifactKey: Guid(53ad6271ebcc03b4e8fcd13aaefbbd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_18.asset using Guid(53ad6271ebcc03b4e8fcd13aaefbbd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4e2acbbf22b316bb561b05cc45e41a67') in 0.024362 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_39.asset
-  artifactKey: Guid(17458fcc3944ece43be44ec26fb9c37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_39.asset using Guid(17458fcc3944ece43be44ec26fb9c37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fceb6933c7e86138096a8087531a02f6') in 0.029125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_5.asset
-  artifactKey: Guid(ac3b4567720de89478b2a569059cf805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_5.asset using Guid(ac3b4567720de89478b2a569059cf805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '41c7f1c39b6c80905352d26784af6b3d') in 0.027369 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_4.asset
-  artifactKey: Guid(671b4eaa1b84d414dbf4e110b1755334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_4.asset using Guid(671b4eaa1b84d414dbf4e110b1755334) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'afe3978be61cd3dbcca64000c1c10396') in 0.025713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.219308 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_42.asset
-  artifactKey: Guid(6fad61e77b71fe64ea7a2e06b3d3ae2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_42.asset using Guid(6fad61e77b71fe64ea7a2e06b3d3ae2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '84824033fb96a08c7878e65cb3dfa000') in 0.019540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_48.asset
-  artifactKey: Guid(8fe8b1906815f6645a7e5b786208b000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_48.asset using Guid(8fe8b1906815f6645a7e5b786208b000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd818f1cb2e1f9478673512de0811e752') in 0.020279 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_43.asset
-  artifactKey: Guid(f8ddb46076b405d499953e7e2614989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_43.asset using Guid(f8ddb46076b405d499953e7e2614989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'cc3d955c54a9f836b2e3a3cdb6cd3843') in 0.024629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_49.asset
-  artifactKey: Guid(c9e193a9cd6abc64cb1511cfe92669a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_49.asset using Guid(c9e193a9cd6abc64cb1511cfe92669a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '59d2e754e741ac6f3bfa81839eb76eab') in 0.009128 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_47.asset
-  artifactKey: Guid(fca501086a28cf6478f762e527b0b525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_47.asset using Guid(fca501086a28cf6478f762e527b0b525) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c97844b12f129be151cd1e0fe8140b9a') in 0.020711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_53.asset
-  artifactKey: Guid(16df3303f897d6744945f1a39dd56d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_53.asset using Guid(16df3303f897d6744945f1a39dd56d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1560f364bc0f98b6532866dbf60cf25f') in 0.024352 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_63.asset
-  artifactKey: Guid(47d9eb7007856e14f822408a7051b7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_63.asset using Guid(47d9eb7007856e14f822408a7051b7dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '161038aa655850c3f3b7a85da8004b01') in 0.020669 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_66.asset
-  artifactKey: Guid(f1819fe55be705e4d95045115b1e691f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_66.asset using Guid(f1819fe55be705e4d95045115b1e691f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ba9ddc00aa56c5e4423ee4c182fdd015') in 0.022017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_65.asset
-  artifactKey: Guid(b03e78a309fa6fc449242768d37b198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_65.asset using Guid(b03e78a309fa6fc449242768d37b198d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e5457c5a2f7f22a62d6dcb58c436362e') in 0.025309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_52.asset
-  artifactKey: Guid(0a26474ed95fb8747b05729af61e0f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_52.asset using Guid(0a26474ed95fb8747b05729af61e0f52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '57696501c03df5d5dbf823556570c0a8') in 0.026876 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_57.asset
-  artifactKey: Guid(16342195ef6fc4148a4c411b5f079c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_57.asset using Guid(16342195ef6fc4148a4c411b5f079c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a4c11c2f8dae6df436ab44315a621eb3') in 0.029475 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_68.asset
-  artifactKey: Guid(458ed04e68ae8a7418fffb0f65e349ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_68.asset using Guid(458ed04e68ae8a7418fffb0f65e349ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a4174acccb1678b683375ee93347cf13') in 0.023697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_55.asset
-  artifactKey: Guid(3b68d202a44fa7d4e837257cde0bcb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_55.asset using Guid(3b68d202a44fa7d4e837257cde0bcb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f37c311300f418e70d0abbc64093985f') in 0.022815 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_70.asset
-  artifactKey: Guid(8afa0b5379d9be645a4aaeb57bcd89bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_70.asset using Guid(8afa0b5379d9be645a4aaeb57bcd89bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '493e2f1f1c074f4895713e89b0456f75') in 0.023171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_71.asset
-  artifactKey: Guid(f6b8676ac2190854aafa523a2a8609ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_71.asset using Guid(f6b8676ac2190854aafa523a2a8609ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '423eb4522b4b309e2b41893ccafb714a') in 0.019685 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_87.asset
-  artifactKey: Guid(3270d55d61518ec4eaba65b9ca646c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_87.asset using Guid(3270d55d61518ec4eaba65b9ca646c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '28dbb1a79f7456b522d8292bff8c7414') in 0.026803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_80.asset
-  artifactKey: Guid(c713be88b06625747bdc3869fd387398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_80.asset using Guid(c713be88b06625747bdc3869fd387398) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2c3ce3e3e249abebf0c5f3b375853e01') in 0.018378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_93.asset
-  artifactKey: Guid(c1a52ae237a289943b6a2945c63c1884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_93.asset using Guid(c1a52ae237a289943b6a2945c63c1884) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '492edbea83dd17ec2352d1a96aaa9e90') in 0.024185 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_84.asset
-  artifactKey: Guid(950b7bb8f8ae93244b8ec470ee913fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_84.asset using Guid(950b7bb8f8ae93244b8ec470ee913fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '6c3a7ffc6584e7a48f837f828cd54181') in 0.020476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_98.asset
-  artifactKey: Guid(ba40b90b82ce4b24aae18b5e5b073820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_98.asset using Guid(ba40b90b82ce4b24aae18b5e5b073820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f532ad03b0faf726e517eb8dd893923c') in 0.019567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_94.asset
-  artifactKey: Guid(9f8b7aadfe106eb4bb6502026cfc8118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_94.asset using Guid(9f8b7aadfe106eb4bb6502026cfc8118) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '93b0d81168f12458997ad1025ec609e6') in 0.024576 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_82.asset
-  artifactKey: Guid(0688bfa3effa67f479578ae0bfda0b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_82.asset using Guid(0688bfa3effa67f479578ae0bfda0b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fad4406e2eeb774467135b31f9dfb402') in 0.023029 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_96.asset
-  artifactKey: Guid(10197f81360c56f49a41ad692b66ca27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_96.asset using Guid(10197f81360c56f49a41ad692b66ca27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c3d8ab352b2ab0284624b38fe09cf32d') in 0.021183 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_90.asset
-  artifactKey: Guid(b65959bed0b476b498974177cb64fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_90.asset using Guid(b65959bed0b476b498974177cb64fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '04be0a5abf83460c9c966f031ab3ff35') in 0.023892 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_59.asset
-  artifactKey: Guid(b701392a00b184744b061073a8d03926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_59.asset using Guid(b701392a00b184744b061073a8d03926) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1fa0b7ea1780f122fa969c6f4fc21c35') in 0.024278 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_103.asset
-  artifactKey: Guid(434f96971d1897c41990c1aa38a4b953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_103.asset using Guid(434f96971d1897c41990c1aa38a4b953) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9fe06d29f1f18500baee6326e32903eb') in 0.020827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_104.asset
-  artifactKey: Guid(f98b883fb66fa4f4eae7c71e7c0fe15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_104.asset using Guid(f98b883fb66fa4f4eae7c71e7c0fe15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '00b938674160bc3f6ae4789001fa6c23') in 0.019805 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_115.asset
-  artifactKey: Guid(0d56845cbff7a7947b84c23913b81daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_115.asset using Guid(0d56845cbff7a7947b84c23913b81daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3b24af8c6c51e60e6f0bdcd03442b805') in 0.020336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_116.asset
-  artifactKey: Guid(cbdec3adb3d27aa4581a394d0bab0915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_116.asset using Guid(cbdec3adb3d27aa4581a394d0bab0915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4c17248657b4a16f05701ca481968ca8') in 0.019117 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_121.asset
-  artifactKey: Guid(4eb4e37c0bfa2dc4c81aed157bcc84c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_121.asset using Guid(4eb4e37c0bfa2dc4c81aed157bcc84c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '434aa6c07d1886ff7446755d42e9cf15') in 0.019495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_126.asset
-  artifactKey: Guid(be86cb0bb70fcb8469f785ea594a28de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_126.asset using Guid(be86cb0bb70fcb8469f785ea594a28de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c5891ef595d25a6809c4566971a8529d') in 0.024378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_124.asset
-  artifactKey: Guid(9f113a95cbb761c4687bbdfc1caaffff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_124.asset using Guid(9f113a95cbb761c4687bbdfc1caaffff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4ea7e5d772289c2572005392bc7ebe5a') in 0.021865 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_81.asset
-  artifactKey: Guid(ef55a97bfb46de040a3fec81dbd563f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_81.asset using Guid(ef55a97bfb46de040a3fec81dbd563f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '40e6f26efc7b1301d7952ded23dd9b5d') in 0.023177 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_120.asset
-  artifactKey: Guid(bb671eec58d5aa04e8f53b17ab704f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_120.asset using Guid(bb671eec58d5aa04e8f53b17ab704f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2e251af8eb6b825dd6a27828b09e50a8') in 0.021817 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_123.asset
-  artifactKey: Guid(268f0a837a699d6419b54675da642e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_123.asset using Guid(268f0a837a699d6419b54675da642e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '464193f6832f09ac572120fde4a3a1a9') in 0.022068 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_109.asset
-  artifactKey: Guid(05a3303dfc4d0844db9dca2ff3b4a4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_109.asset using Guid(05a3303dfc4d0844db9dca2ff3b4a4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '341cbebf5a8121cde7efbdd567c4fbe8') in 0.019671 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_118.asset
-  artifactKey: Guid(3aa1edd967f0819488fafc27641d373b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_118.asset using Guid(3aa1edd967f0819488fafc27641d373b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'a85f2474190c109d66e129d558ed67a5') in 0.020948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_106.asset
-  artifactKey: Guid(d18bc9763353e1a44959c31c93a4544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_106.asset using Guid(d18bc9763353e1a44959c31c93a4544a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '54b0162eb857e95ef304a68c62ba0add') in 0.022766 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_132.asset
-  artifactKey: Guid(3c12384d3d3ae554a9565a44f6b1607c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_132.asset using Guid(3c12384d3d3ae554a9565a44f6b1607c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3e886ac60d08ba2ab798500514e01918') in 0.024927 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_99.asset
-  artifactKey: Guid(f20bc005eb7e4e949b445062d95641a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_99.asset using Guid(f20bc005eb7e4e949b445062d95641a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '11b2545c45ee8f11af079b9d7dc8712d') in 0.020530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_122.asset
-  artifactKey: Guid(3e5de92fc6829e240bda042248a5668b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_122.asset using Guid(3e5de92fc6829e240bda042248a5668b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8e2ed1993bced75f90082d366908ab25') in 0.025469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_97.asset
-  artifactKey: Guid(6f4bd01879409b24691b50fcf4073daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_97.asset using Guid(6f4bd01879409b24691b50fcf4073daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9ae3d1252034094c4e44d2db2fbf51b3') in 0.026466 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_85.asset
-  artifactKey: Guid(619f6af72c838044e9f77d5dd65fe40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_85.asset using Guid(619f6af72c838044e9f77d5dd65fe40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2153d86f6931dda35d5e9896a67822da') in 0.026339 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_100.asset
-  artifactKey: Guid(6317d370c3f632c44b5a6d0a71152375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_100.asset using Guid(6317d370c3f632c44b5a6d0a71152375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '82d45e91398418b080b7e28f87ba7271') in 0.023472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_107.asset
-  artifactKey: Guid(02fcd41204976ff40a739a04c2bed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_107.asset using Guid(02fcd41204976ff40a739a04c2bed905) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c6b0765feb721c53807b14fe9d59d15f') in 0.020718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_95.asset
-  artifactKey: Guid(781f506f435eaf042a4091337bf8845c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_95.asset using Guid(781f506f435eaf042a4091337bf8845c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '58a2fb191a208828081d354471ec1b87') in 0.025635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Tiles/Map1.0/Dungeon Tile Set_79.asset
-  artifactKey: Guid(ad2fa2a85b694c74e984adb14f9721a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiles/Map1.0/Dungeon Tile Set_79.asset using Guid(ad2fa2a85b694c74e984adb14f9721a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '390a95f27ac15426d21655312b3a28ae') in 0.025657 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1be8a99a0361d04ac241ec2299a71561 -> e5a23ca9b88f3e21374e0eb7d844168d
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.629 seconds
+- Loaded All Assemblies, in  1.871 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.204 seconds
-Domain Reload Profiling: 2833ms
-	BeginReloadAssembly (207ms)
+- Finished resetting the current domain, in  4.045 seconds
+Domain Reload Profiling: 5916ms
+	BeginReloadAssembly (840ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (71ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (332ms)
-		LoadAssemblies (432ms)
+		CreateAndSetChildDomain (222ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (890ms)
+		LoadAssemblies (1271ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (4045ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (810ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (643ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 9.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4024 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (213.4 KB). Loaded Objects now: 4502.
+Memory consumption went from 139.9 MB to 139.7 MB.
+Total: 7.923300 ms (FindLiveObjects: 0.530500 ms CreateObjectMapping: 0.224400 ms MarkObjects: 6.743700 ms  DeleteObjects: 0.423200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/CameraPlayer.cs: dcb7d56addd289ead623509b38ce9e24 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1be8a99a0361d04ac241ec2299a71561 -> e5a23ca9b88f3e21374e0eb7d844168d
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.733 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.819 seconds
+Domain Reload Profiling: 2552ms
+	BeginReloadAssembly (214ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (429ms)
+		LoadAssemblies (534ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
 			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (2205ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1820ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (822ms)
+		SetupLoadedEditorAssemblies (662ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (636ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (501ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Refreshing native plugins compatible for Editor in 9.80 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 5.69 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4022 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (213.3 KB). Loaded Objects now: 4507.
-Memory consumption went from 144.0 MB to 143.8 MB.
-Total: 4.917500 ms (FindLiveObjects: 0.468700 ms CreateObjectMapping: 0.172000 ms MarkObjects: 3.724900 ms  DeleteObjects: 0.549500 ms)
+Unloading 4024 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (212.9 KB). Loaded Objects now: 4506.
+Memory consumption went from 139.9 MB to 139.7 MB.
+Total: 6.237900 ms (FindLiveObjects: 0.513100 ms CreateObjectMapping: 0.207200 ms MarkObjects: 5.292200 ms  DeleteObjects: 0.222300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -933,6 +383,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/CameraPlayer.cs: dcb7d56addd289ead623509b38ce9e24 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -941,3 +392,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 1be8a99a0361d04ac241ec2299a71561 -> e5a23ca9b88f3e21374e0eb7d844168d
