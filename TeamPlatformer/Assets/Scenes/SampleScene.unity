@@ -2461,7 +2461,7 @@ GameObject:
   - component: {fileID: 130425444}
   m_Layer: 0
   m_Name: TestHero
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2523,10 +2523,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 6
+  m_Mass: 70
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 30
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2631,6 +2631,7 @@ GameObject:
   - component: {fileID: 519420029}
   - component: {fileID: 519420034}
   - component: {fileID: 519420033}
+  - component: {fileID: 519420035}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2799,6 +2800,18 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &519420035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a49b31a0efdaaa45b021d3a63c5ac3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &843986886
 GameObject:
   m_ObjectHideFlags: 0
