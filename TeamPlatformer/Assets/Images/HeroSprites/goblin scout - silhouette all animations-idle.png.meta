@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2a371fc88cf779e48adf30506e0e1ee1
+guid: 551ebcd6bd1ccf641876bc910c4475c0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,186 +93,173 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: goblin scout - silhouette all animations-walk_0
+      name: goblin scout - silhouette all animations-idle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 64
+        x: 23
+        y: 19
+        width: 16
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c15eed8907b1e845a3ef76beb673e09
-      internalID: -1686212931
+      spriteID: c7f8e3a0ae7ad9443983d375505d4ac0
+      internalID: -1693072292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin scout - silhouette all animations-walk_1
+      name: goblin scout - silhouette all animations-idle_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 64
+        x: 87
+        y: 19
+        width: 17
+        height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0384b3cd06c8efc42829b74b1bc8eed2
-      internalID: 953743259
+      spriteID: d47a370b4c023fe469ecd8fece2142da
+      internalID: -1415716033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin scout - silhouette all animations-walk_2
+      name: goblin scout - silhouette all animations-idle_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 64
+        x: 152
+        y: 19
+        width: 17
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20d8f12668cd94a4a8823094ac9bad49
-      internalID: 884517604
+      spriteID: c0d53a4074cacb448bb77287323f0370
+      internalID: -502669736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin scout - silhouette all animations-walk_3
+      name: goblin scout - silhouette all animations-idle_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 64
+        x: 216
+        y: 19
+        width: 17
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 068b0dce0b6b54742b3b5c7aad606d3b
-      internalID: -288025888
+      spriteID: d2a2f274df3ebb34394a4cc90354c241
+      internalID: 23081083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin scout - silhouette all animations-walk_4
+      name: goblin scout - silhouette all animations-idle_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 64
-        height: 64
+        x: 279
+        y: 19
+        width: 17
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 059b10927114aa442830206b2aa0f768
-      internalID: -962554457
+      spriteID: 23c1960e47ec24a44a5d8e7cd04df6b5
+      internalID: -40343721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin scout - silhouette all animations-walk_5
+      name: goblin scout - silhouette all animations-idle_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 0
-        width: 64
-        height: 64
+        x: 343
+        y: 19
+        width: 17
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c05dfaa239378344ab3a01147a06872
-      internalID: -984523771
+      spriteID: 307ec3749b160f849bf9ae6f05be3160
+      internalID: 786480099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin scout - silhouette all animations-walk_6
+      name: goblin scout - silhouette all animations-idle_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 0
-        width: 64
-        height: 64
+        x: 406
+        y: 19
+        width: 17
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5c099bf363dc4f4390b5f5dcf287808
-      internalID: 539139754
+      spriteID: 13f1bedf2a8c22745a724dd6212a4d07
+      internalID: -439010964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: goblin scout - silhouette all animations-walk_7
+      name: goblin scout - silhouette all animations-idle_7
       rect:
         serializedVersion: 2
-        x: 448
-        y: 0
-        width: 64
-        height: 64
+        x: 470
+        y: 19
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8498f0e24965d348ac9f7c85542575e
-      internalID: -1931592311
+      spriteID: 4289ef7aa111ec448ac317a687e707aa
+      internalID: -591699138
       vertices: []
       indices: 
       edges: []
@@ -288,14 +275,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      goblin scout - silhouette all animations-walk_0: -1686212931
-      goblin scout - silhouette all animations-walk_1: 953743259
-      goblin scout - silhouette all animations-walk_2: 884517604
-      goblin scout - silhouette all animations-walk_3: -288025888
-      goblin scout - silhouette all animations-walk_4: -962554457
-      goblin scout - silhouette all animations-walk_5: -984523771
-      goblin scout - silhouette all animations-walk_6: 539139754
-      goblin scout - silhouette all animations-walk_7: -1931592311
+      goblin scout - silhouette all animations-idle_0: -1693072292
+      goblin scout - silhouette all animations-idle_1: -1415716033
+      goblin scout - silhouette all animations-idle_2: -502669736
+      goblin scout - silhouette all animations-idle_3: 23081083
+      goblin scout - silhouette all animations-idle_4: -40343721
+      goblin scout - silhouette all animations-idle_5: 786480099
+      goblin scout - silhouette all animations-idle_6: -439010964
+      goblin scout - silhouette all animations-idle_7: -591699138
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

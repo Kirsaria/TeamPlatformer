@@ -2499,6 +2499,7 @@ GameObject:
   - component: {fileID: 130425441}
   - component: {fileID: 130425440}
   - component: {fileID: 130425444}
+  - component: {fileID: 130425445}
   m_Layer: 0
   m_Name: TestHero
   m_TagString: Player
@@ -2538,18 +2539,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0018996149, y: -0.053506695}
+  m_Offset: {x: -0.0018996149, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
+    oldSize: {x: 0.7111111, y: 0.7111111}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.15839782, y: 0.17685638}
+  m_Size: {x: 0.15839782, y: 0.17348741}
   m_EdgeRadius: 0
 --- !u!50 &130425441
 Rigidbody2D:
@@ -2639,7 +2640,7 @@ Transform:
   m_GameObject: {fileID: 130425439}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.496, y: -2.21, z: 0.041255217}
+  m_LocalPosition: {x: -9.25, y: -3.113, z: 0.041255217}
   m_LocalScale: {x: 6, y: 6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2659,6 +2660,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   jumpForce: 40
+  animator: {fileID: 0}
+  lerpSpeed: 1
+--- !u!95 &130425445
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130425439}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0e768833187f6a9418a4543d72978871, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2723,7 +2747,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 4
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
