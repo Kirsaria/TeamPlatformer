@@ -2539,18 +2539,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0018996149, y: 0}
+  m_Offset: {x: -0.0016098544, y: 0.020024732}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.7111111, y: 0.7111111}
+    oldSize: {x: 0.17777778, y: 0.16666667}
     newSize: {x: 0.64, y: 0.64}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 1
   serializedVersion: 2
-  m_Size: {x: 0.15839782, y: 0.17348741}
+  m_Size: {x: 0.19374229, y: 0.22006491}
   m_EdgeRadius: 0
 --- !u!50 &130425441
 Rigidbody2D:
@@ -2640,7 +2640,7 @@ Transform:
   m_GameObject: {fileID: 130425439}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.25, y: -3.113, z: 0.041255217}
+  m_LocalPosition: {x: -12.4, y: -0.43, z: 0.041255217}
   m_LocalScale: {x: 6, y: 6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2747,7 +2747,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4
+  orthographic size: 3
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -2877,6 +2877,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a49b31a0efdaaa45b021d3a63c5ac3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damping: 1.5
+  offset: {x: 2, y: 1}
+  faceLeft: 0
 --- !u!1 &843986886
 GameObject:
   m_ObjectHideFlags: 0

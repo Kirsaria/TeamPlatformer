@@ -33,8 +33,8 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("HorizontalMove", Mathf.Abs(movement));
         if (Mathf.Abs(movement) > 0.1f)
         {
-            box.size = Vector2.Lerp(box.size, new Vector2(0.1583978f, 0.1734874f), Time.deltaTime * lerpSpeed);
-            box.offset = Vector2.Lerp(box.offset, new Vector2(-0.001899615f, -0.06019124f), Time.deltaTime * lerpSpeed);
+            box.size = Vector2.Lerp(box.size, new Vector2(0.1583978f, 0.2341504f), Time.deltaTime * lerpSpeed);
+            box.offset = Vector2.Lerp(box.offset, new Vector2(-0.001899615f, -0.03033152f), Time.deltaTime * lerpSpeed);
         }
         else
         {
