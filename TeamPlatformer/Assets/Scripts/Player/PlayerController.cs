@@ -12,11 +12,14 @@ public class PlayerController : MonoBehaviour
     BoxCollider2D box;
     Rigidbody2D rb;
     SpriteRenderer sr;
-    public float health;
+    public int health = 3;
     public int numberOfHearts;
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
+    private bool isDead = false;
+    private bool isOnSpikes = false;
+    private Coroutine damageCoroutine;
 
     void Start()
     {
@@ -30,7 +33,8 @@ public class PlayerController : MonoBehaviour
     {
         float movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * speed * Time.deltaTime;
-        animator.SetFloat("HorizontalMove", Mathf.Abs(movement));
+        animator.SetFloat("moveX", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
+        animator.SetBool("CharacterDeath", isDead);
 
         if (health > numberOfHearts)
         {
@@ -49,11 +53,12 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        // Изменено здесь: добавлено условие для анимации смерти
         if (health == 0)
         {
-            StartCoroutine(HandleDeath()); 
-            return; 
+            isDead = true;
+            speed = 0;
+            StartCoroutine(HandleDeath());
+            return;
         }
 
         if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)) && Mathf.Abs(rb.velocity.y) < 0.005f)
@@ -66,15 +71,38 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.CompareTag("Spikes") && !isOnSpikes)
+        {
+            isOnSpikes = true;
+            damageCoroutine = StartCoroutine(TakeDamage());
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
         if (collision.gameObject.CompareTag("Spikes"))
         {
+            isOnSpikes = false;
+            if (damageCoroutine != null)
+            {
+                StopCoroutine(damageCoroutine);
+                damageCoroutine = null;
+            }
+        }
+    }
+
+    private IEnumerator TakeDamage()
+    {
+        while (isOnSpikes && health > 0)
+        {
             health--;
+            yield return new WaitForSeconds(2f);
         }
     }
 
     private IEnumerator HandleDeath()
     {
-        yield return new WaitForSeconds(2f); 
+        yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
