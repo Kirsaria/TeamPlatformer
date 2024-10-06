@@ -1,19 +1,22 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-
     public float speed;
     public float jumpForce;
     public Animator animator;
     BoxCollider2D box;
     Rigidbody2D rb;
     SpriteRenderer sr;
-    private Vector2 originalSize;
-    private Vector2 originalOffset;
-    public float lerpSpeed = 20f;
+    public float health;
+    public int numberOfHearts;
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite emptyHeart;
 
     void Start()
     {
@@ -21,25 +24,57 @@ public class PlayerController : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         box = GetComponent<BoxCollider2D>();
-        originalSize = box.size;
-        originalOffset = box.offset;
     }
-
 
     void Update()
     {
         float movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * speed * Time.deltaTime;
         animator.SetFloat("HorizontalMove", Mathf.Abs(movement));
-       
 
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W))&& Mathf.Abs(rb.velocity.y) < 0.005f)
+        if (health > numberOfHearts)
+        {
+            health = numberOfHearts;
+        }
+
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if (i < Mathf.RoundToInt(health))
+            {
+                hearts[i].sprite = fullHeart;
+            }
+            else
+            {
+                hearts[i].sprite = emptyHeart;
+            }
+        }
+
+        // Изменено здесь: добавлено условие для анимации смерти
+        if (health == 0)
+        {
+            StartCoroutine(HandleDeath()); 
+            return; 
+        }
+
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.W)) && Mathf.Abs(rb.velocity.y) < 0.005f)
         {
             rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
         }
 
         sr.flipX = movement < 0 ? true : false;
-
     }
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Spikes"))
+        {
+            health--;
+        }
+    }
+
+    private IEnumerator HandleDeath()
+    {
+        yield return new WaitForSeconds(2f); 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
