@@ -20,6 +20,10 @@ public class PlayerController : MonoBehaviour
     private bool isDead = false;
     private bool isOnSpikes = false;
     private Coroutine damageCoroutine;
+    private Material matBlink;
+    private Material matDefault;
+    private SpriteRenderer spriteRender;
+    private float blinkInterval = 3f;
 
     void Start()
     {
@@ -27,6 +31,9 @@ public class PlayerController : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         box = GetComponent<BoxCollider2D>();
+        spriteRender = GetComponent<SpriteRenderer>();
+        matBlink = Resources.Load("HiroBlink", typeof(Material)) as Material;
+        matDefault = spriteRender.material;
     }
 
     void Update()
@@ -55,6 +62,7 @@ public class PlayerController : MonoBehaviour
 
         if (health == 0)
         {
+            Invoke("ResetMaterial", 2f);
             isDead = true;
             speed = 0;
             StartCoroutine(HandleDeath());
@@ -83,8 +91,9 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Spikes"))
         {
             isOnSpikes = false;
+            ResetMaterial();
             if (damageCoroutine != null)
-            {
+            {   
                 StopCoroutine(damageCoroutine);
                 damageCoroutine = null;
             }
@@ -96,7 +105,12 @@ public class PlayerController : MonoBehaviour
         while (isOnSpikes && health > 0)
         {
             health--;
-            yield return new WaitForSeconds(2f);
+            SetMaterial();
+            //Персонаж остается красным в течение времени
+            yield return new WaitForSeconds(blinkInterval / 10);
+            ResetMaterial();
+            //Персонаж возвращает свой материал в течение времени
+            yield return new WaitForSeconds(blinkInterval / 2);
         }
     }
 
@@ -104,5 +118,17 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    //Возвращение к материалу
+    void ResetMaterial()
+    {
+        spriteRender.material = matDefault;
+    }
+
+    //Переход к новому материалу (красный цвет главного героя)
+    void SetMaterial()
+    {
+        spriteRender.material = matBlink;
     }
 }
