@@ -1,22 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\",
+  "WorkspaceRootPath": "D:\\git\\TeamPlatformer\\TeamPlatformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|d:\\programming\\teamproject\\teamplatformer\\teamplatformer\\assets\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\inventory\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\inventory\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|d:\\git\\teamplatformer\\teamplatformer\\assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Slot.cs",
-              "DocumentMoniker": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\Slot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\Slot.cs",
-              "ToolTip": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\Slot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Inventory\\Slot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T21:00:54.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PickUp.cs",
-              "DocumentMoniker": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\PickUp.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\PickUp.cs",
-              "ToolTip": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\PickUp.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Inventory\\PickUp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T20:30:08.414Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\Inventory.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\Inventory.cs",
-              "ToolTip": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\Inventory.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Inventory\\Inventory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAwAAAAAAAAAAAAAAA==",
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\MainMenu.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\MainMenu.cs",
+              "RelativeToolTip": "Assets\\MainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T20:28:54.42Z",
+              "WhenOpened": "2024-10-10T22:52:26.512Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ToolTip": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T18:32:31.824Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

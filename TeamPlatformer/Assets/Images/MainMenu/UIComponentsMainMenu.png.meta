@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0bc403c991c19e044bbd5b45acfbf31c
+guid: 0e456d36c7d20a040814445e069ec7ea
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -37,9 +37,9 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Heart 1_0
+      name: UIComponentsMainMenu_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 43
-        width: 19
-        height: 18
+        x: 0
+        y: 356
+        width: 669
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9866253a9cf071d4d90148b7c76c81cc
-      internalID: 175702049
+      spriteID: b64d5f65820955747b57835087faadb2
+      internalID: -896520380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heart 1_1
+      name: UIComponentsMainMenu_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 43
-        width: 19
-        height: 18
+        x: 0
+        y: 161
+        width: 669
+        height: 149
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43f2f14e7a93d814898c1391e89434c9
-      internalID: -2060378563
+      spriteID: 05d8af97bbea39e4a9f9fb64ba70cc7b
+      internalID: -1355484134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heart 1_2
+      name: UIComponentsMainMenu_2
       rect:
         serializedVersion: 2
-        x: 62
-        y: 43
-        width: 19
-        height: 18
+        x: 0
+        y: 0
+        width: 669
+        height: 134
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fda9245da4e6d04cb40b012be7429fb
-      internalID: 360836417
+      spriteID: 0deca68090829294fb189e704b1a3817
+      internalID: 1852878342
       vertices: []
       indices: 
       edges: []
@@ -170,9 +170,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Heart 1_0: 175702049
-      Heart 1_1: -2060378563
-      Heart 1_2: 360836417
+      UIComponentsMainMenu_0: -896520380
+      UIComponentsMainMenu_1: -1355484134
+      UIComponentsMainMenu_2: 1852878342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
