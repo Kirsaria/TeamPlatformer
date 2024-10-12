@@ -7,6 +7,7 @@ TagManager:
   - Spikes
   - Star
   - DialoguePanel
+  - QuestObject
   layers:
   - Default
   - TransparentFX

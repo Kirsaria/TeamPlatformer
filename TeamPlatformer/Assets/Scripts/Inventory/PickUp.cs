@@ -7,12 +7,12 @@ public class PickUp : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject slotButton;
-    public Text starCounter; // TextMeshPro ������� ��� ����������� ��������
+    public Text starCounter; 
 
     private void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
-        starCounter = GameObject.Find("StarCounter").GetComponent<Text>(); // ����� TextMeshPro ������� �� �����
+        starCounter = GameObject.Find("StarCounter").GetComponent<Text>(); 
         UpdateStarCounter();
     }
 
@@ -22,14 +22,14 @@ public class PickUp : MonoBehaviour
         {
             if (inventory.starSlotIndex == -1)
             {
-                // ����� ������ ������ ���� � ��������� ���� ������
+                
                 for (int i = 0; i < inventory.slots.Length; i++)
                 {
                     if (inventory.isFull[i] == false)
                     {
                         inventory.isFull[i] = true;
                         Instantiate(slotButton, inventory.slots[i].transform);
-                        inventory.starSlotIndex = i; // ��������� ������ ����� ��� �����
+                        inventory.starSlotIndex = i; 
                         inventory.starCount++;
                         UpdateStarCounter();
                         Destroy(gameObject);
@@ -39,10 +39,23 @@ public class PickUp : MonoBehaviour
             }
             else
             {
-                // ��������� ������� �����
+               
                 inventory.starCount++;
                 UpdateStarCounter();
                 Destroy(gameObject);
+            }
+        }
+        else if(other.CompareTag("Player") && gameObject.CompareTag("QuestObject"))
+        {
+            for (int i = 0; i < inventory.slots.Length; i++)
+            {
+                if (inventory.isFull[i] == false)
+                {
+                    inventory.isFull[i] = true;
+                    Instantiate(slotButton, inventory.slots[i].transform);
+                    Destroy(gameObject);
+                    break;
+                }
             }
         }
     }
