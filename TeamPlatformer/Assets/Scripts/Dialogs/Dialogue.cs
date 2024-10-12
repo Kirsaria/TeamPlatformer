@@ -14,6 +14,7 @@ public class Dialog : MonoBehaviour
     private int numberDialog = 0;
     private Coroutine typingCoroutine;
     private bool isPlayerInRange = false;
+    private bool isDialogActive = false;
     Animator animator;
 
     private void Update()
@@ -21,8 +22,23 @@ public class Dialog : MonoBehaviour
         animator = windowDialog.GetComponent<Animator>();
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.E))
         {
+            if (isDialogActive)
+            {
+                if (typingCoroutine != null)
+                {
+                    StopCoroutine(typingCoroutine);
+                    typingCoroutine = null;
+                    textDialog.text = messages[numberDialog]; // Отображение полного текста текущего диалога
+                }
+                else
+                {
+                    NextDialog();
+                }
+            }
+            else
+            {
                 StartDialog();
-
+            }
         }
     }
 
@@ -31,7 +47,6 @@ public class Dialog : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isPlayerInRange = true;
-
         }
     }
 
@@ -42,17 +57,17 @@ public class Dialog : MonoBehaviour
             isPlayerInRange = false;
             if (windowDialog.activeSelf)
             {
-               
                 Inventory.SetActive(true);
                 Bag.SetActive(true);
                 animator.SetBool("Start", false);
-    
+
                 numberDialog = 0;
                 if (typingCoroutine != null)
                 {
                     StopCoroutine(typingCoroutine);
                 }
                 typingCoroutine = null;
+                isDialogActive = false;
             }
         }
     }
@@ -69,6 +84,7 @@ public class Dialog : MonoBehaviour
             StopCoroutine(typingCoroutine);
         }
         typingCoroutine = StartCoroutine(TypeSentence());
+        isDialogActive = true;
     }
 
     private IEnumerator TypeSentence()
@@ -77,22 +93,15 @@ public class Dialog : MonoBehaviour
         string characterName = names[numberDialog];
 
         nameText.text = characterName;
-
         textDialog.text = "";
 
         foreach (char letter in sentence)
         {
-
-                textDialog.text += letter;
-                yield return new WaitForSeconds(0.02f);
+            textDialog.text += letter;
+            yield return new WaitForSeconds(0.02f);
         }
 
-        while (!Input.GetKeyDown(KeyCode.Return))
-        {
-            yield return null;
-        }
-
-        NextDialog();
+        typingCoroutine = null; // Завершение корутины
     }
 
     public void NextDialog()
@@ -100,6 +109,10 @@ public class Dialog : MonoBehaviour
         numberDialog++;
         if (numberDialog < messages.Length)
         {
+            if (typingCoroutine != null)
+            {
+                StopCoroutine(typingCoroutine);
+            }
             typingCoroutine = StartCoroutine(TypeSentence());
         }
         else
@@ -107,6 +120,7 @@ public class Dialog : MonoBehaviour
             Bag.SetActive(true);
             Inventory.SetActive(true);
             animator.SetBool("Start", false);
+            isDialogActive = false;
         }
     }
 }
