@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Spikes
   - Star
+  - DialoguePanel
   layers:
   - Default
   - TransparentFX
