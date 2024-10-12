@@ -8,6 +8,7 @@ TagManager:
   - Star
   - DialoguePanel
   - QuestObject
+  - music
   layers:
   - Default
   - TransparentFX
