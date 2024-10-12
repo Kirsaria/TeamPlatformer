@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
+    private bool isWalking = false;
     private bool isDead = false;
     private bool isOnSpikes = false;
     private Coroutine damageCoroutine;
@@ -24,6 +25,8 @@ public class PlayerController : MonoBehaviour
     private Material matDefault;
     private SpriteRenderer spriteRender;
     private float blinkInterval = 3f;
+
+    public AudioSource DamageSound, WalkingSound, JumpingSound;
 
     void Start()
     {
@@ -69,8 +72,26 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
+        if (Mathf.Abs(movement) > 0.1f)
+        {
+            if (!isWalking)
+            {
+                WalkingSound.Play();
+                isWalking = true;
+            }
+        }
+        else
+        {
+            if (isWalking)
+            {
+                WalkingSound.Stop();
+                isWalking = false;
+            }
+        }
+
         if (Input.GetKeyDown(KeyCode.W) && Mathf.Abs(rb.velocity.y) < 0.005f)
         {
+            JumpingSound.Play();
             rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
         }
 
@@ -104,6 +125,7 @@ public class PlayerController : MonoBehaviour
     {
         while (isOnSpikes && health > 0)
         {
+            DamageSound.Play();
             health--;
             SetMaterial();
             //Персонаж остается красным в течение времени
