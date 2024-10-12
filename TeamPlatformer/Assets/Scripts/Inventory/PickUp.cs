@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using UnityEngine.UI;
 public class PickUp : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject slotButton;
-    public TextMeshProUGUI starCounterTMP; // TextMeshPro элемент для отображения счетчика
+    public Text starCounter; // TextMeshPro пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
     private void Start()
     {
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
-        starCounterTMP = GameObject.Find("StarCounterTMP").GetComponent<TextMeshProUGUI>(); // Найти TextMeshPro элемент по имени
+        starCounter = GameObject.Find("StarCounter").GetComponent<Text>(); // пїЅпїЅпїЅпїЅпїЅ TextMeshPro пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
         UpdateStarCounter();
     }
 
@@ -22,14 +22,14 @@ public class PickUp : MonoBehaviour
         {
             if (inventory.starSlotIndex == -1)
             {
-                // Найти первый пустой слот и поместить туда звезду
+                // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
                 for (int i = 0; i < inventory.slots.Length; i++)
                 {
                     if (inventory.isFull[i] == false)
                     {
                         inventory.isFull[i] = true;
                         Instantiate(slotButton, inventory.slots[i].transform);
-                        inventory.starSlotIndex = i; // Запомнить индекс слота для звезд
+                        inventory.starSlotIndex = i; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
                         inventory.starCount++;
                         UpdateStarCounter();
                         Destroy(gameObject);
@@ -39,7 +39,7 @@ public class PickUp : MonoBehaviour
             }
             else
             {
-                // Увеличить счетчик звезд
+                // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
                 inventory.starCount++;
                 UpdateStarCounter();
                 Destroy(gameObject);
@@ -49,6 +49,6 @@ public class PickUp : MonoBehaviour
 
     private void UpdateStarCounter()
     {
-        starCounterTMP.text = inventory.starCount.ToString();
+        starCounter.text = inventory.starCount.ToString();
     }
 }

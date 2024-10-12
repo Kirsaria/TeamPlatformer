@@ -4,27 +4,26 @@ using System.Collections;
 
 public class Dialog : MonoBehaviour
 {
-    public GameObject windowDialog; // Окно диалога
+    public GameObject windowDialog;
     public GameObject Inventory;
     public GameObject Bag;
-    public Text textDialog; // Используем Text для отображения текста
-    public Text nameText; // Новый текст для отображения имени
-    public string[] messages; // Сообщения для диалога
-    public string[] names; // Массив имен для каждой реплики
-    private int numberDialog = 0; // Индекс текущего сообщения
-    private Coroutine typingCoroutine; // Хранит ссылку на корутину
-    private bool isPlayerInRange = false; // Переменная для отслеживания, находится ли игрок в диапазоне триггера
+    public Text textDialog;
+    public Text nameText;
+    public string[] messages;
+    public string[] names;
+    private int numberDialog = 0;
+    private Coroutine typingCoroutine;
+    private bool isPlayerInRange = false;
 
     private void Update()
     {
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (!windowDialog.activeSelf) // Если окно диалога закрыто, открываем его
+            if (!windowDialog.activeSelf)
             {
                 StartDialog();
             }
-            // Если окно диалога уже открыто, не делаем ничего
-            // Можно добавить сообщения или эффекты по желанию
+
         }
     }
 
@@ -33,7 +32,7 @@ public class Dialog : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isPlayerInRange = true;
-            // Вы можете дополнительно отобразить сообщение на экране, чтобы игрок знал, что нужно нажать E
+
         }
     }
 
@@ -63,7 +62,7 @@ public class Dialog : MonoBehaviour
         windowDialog.SetActive(true);
         Inventory.SetActive(false);
         Bag.SetActive(false);
-        numberDialog = 0; // Сброс индекса диалога
+        numberDialog = 0;
         if (typingCoroutine != null)
         {
             StopCoroutine(typingCoroutine);
@@ -79,28 +78,14 @@ public class Dialog : MonoBehaviour
         nameText.text = characterName;
 
         textDialog.text = "";
-        bool isSkipping = false;
 
         foreach (char letter in sentence)
         {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                isSkipping = true;
-                break;
-            }
-            else
-            {
+
                 textDialog.text += letter;
                 yield return new WaitForSeconds(0.02f);
-            }
         }
 
-        if (isSkipping)
-        {
-            textDialog.text = sentence;
-        }
-
-        // Ждем нажатия Enter для перехода к следующему сообщению
         while (!Input.GetKeyDown(KeyCode.Return))
         {
             yield return null;
