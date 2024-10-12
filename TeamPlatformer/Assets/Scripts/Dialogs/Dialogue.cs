@@ -14,15 +14,14 @@ public class Dialog : MonoBehaviour
     private int numberDialog = 0;
     private Coroutine typingCoroutine;
     private bool isPlayerInRange = false;
+    Animator animator;
 
     private void Update()
     {
+        animator = windowDialog.GetComponent<Animator>();
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            if (!windowDialog.activeSelf)
-            {
                 StartDialog();
-            }
 
         }
     }
@@ -43,10 +42,11 @@ public class Dialog : MonoBehaviour
             isPlayerInRange = false;
             if (windowDialog.activeSelf)
             {
-                
-                windowDialog.SetActive(false);
+               
                 Inventory.SetActive(true);
                 Bag.SetActive(true);
+                animator.SetBool("Start", false);
+    
                 numberDialog = 0;
                 if (typingCoroutine != null)
                 {
@@ -62,6 +62,7 @@ public class Dialog : MonoBehaviour
         windowDialog.SetActive(true);
         Inventory.SetActive(false);
         Bag.SetActive(false);
+        animator.SetBool("Start", true);
         numberDialog = 0;
         if (typingCoroutine != null)
         {
@@ -103,9 +104,9 @@ public class Dialog : MonoBehaviour
         }
         else
         {
-            windowDialog.SetActive(false);
             Bag.SetActive(true);
             Inventory.SetActive(true);
+            animator.SetBool("Start", false);
         }
     }
 }
