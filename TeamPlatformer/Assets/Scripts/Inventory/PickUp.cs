@@ -47,7 +47,7 @@ public class PickUp : MonoBehaviour
         }
         else if(other.CompareTag("Player") && gameObject.CompareTag("QuestObject"))
         {
-            for (int i = 0; i < inventory.slots.Length; i++)
+            for (int i = 1; i < inventory.slots.Length; i++)
             {
                 if (inventory.isFull[i] == false)
                 {

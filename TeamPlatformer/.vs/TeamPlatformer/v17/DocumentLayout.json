@@ -34,7 +34,8 @@
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\Slot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T07:08:40.367Z"
+              "WhenOpened": "2024-10-12T07:08:40.367Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +45,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\PickUp.cs",
               "ToolTip": "C:\\Users\\HP\\Documents\\GitHub\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\PickUp.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\PickUp.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAIwDYAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T07:06:47.179Z",
               "EditorCaption": ""
