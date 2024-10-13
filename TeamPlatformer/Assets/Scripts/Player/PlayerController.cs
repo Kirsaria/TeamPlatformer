@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -25,7 +24,6 @@ public class PlayerController : MonoBehaviour
     private Material matDefault;
     private SpriteRenderer spriteRender;
     private float blinkInterval = 3f;
-
     public AudioSource DamageSound, WalkingSound, JumpingSound;
 
     void Start()
@@ -43,8 +41,8 @@ public class PlayerController : MonoBehaviour
     {
         float movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * speed * Time.deltaTime;
+
         animator.SetFloat("moveX", Mathf.Abs(Input.GetAxisRaw("Horizontal")));
-        animator.SetBool("CharacterDeath", isDead);
 
         if (health > numberOfHearts)
         {
@@ -65,11 +63,8 @@ public class PlayerController : MonoBehaviour
 
         if (health == 0)
         {
-            Invoke("ResetMaterial", 2f);
-            isDead = true;
-            speed = 0;
+            animator.SetBool("CharacterDeath", true);
             StartCoroutine(HandleDeath());
-            return;
         }
 
         if (Mathf.Abs(movement) > 0.1f)
@@ -114,7 +109,7 @@ public class PlayerController : MonoBehaviour
             isOnSpikes = false;
             ResetMaterial();
             if (damageCoroutine != null)
-            {   
+            {
                 StopCoroutine(damageCoroutine);
                 damageCoroutine = null;
             }
@@ -128,27 +123,33 @@ public class PlayerController : MonoBehaviour
             DamageSound.Play();
             health--;
             SetMaterial();
-            //Персонаж остается красным в течение времени
             yield return new WaitForSeconds(blinkInterval / 10);
             ResetMaterial();
-            //Персонаж возвращает свой материал в течение времени
             yield return new WaitForSeconds(blinkInterval / 2);
         }
     }
 
     private IEnumerator HandleDeath()
     {
+        //Ожидание проигрывания анимации смерти
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        // Восстанавливаем здоровье. Я добавила просто так
+        health = numberOfHearts;
+        ResetMaterial();
+
+        //Сбрасываем состояние анимации смерти. Переход в состояние покоя
+        animator.SetBool("CharacterDeath", false);
     }
 
-    //Возвращение к материалу
+
+    // Возвращение к материалу
     void ResetMaterial()
     {
         spriteRender.material = matDefault;
     }
 
-    //Переход к новому материалу (красный цвет главного героя)
+    // Переход к новому материалу (красный цвет главного героя)
     void SetMaterial()
     {
         spriteRender.material = matBlink;
