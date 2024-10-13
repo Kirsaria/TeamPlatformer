@@ -9,6 +9,7 @@ public class Dialog : MonoBehaviour
     public GameObject Bag;
     public Text textDialog;
     public Text nameText;
+    public Text messageText;
     public string[] messages;
     public string[] names;
     private int numberDialog = 0;
@@ -28,7 +29,7 @@ public class Dialog : MonoBehaviour
                 {
                     StopCoroutine(typingCoroutine);
                     typingCoroutine = null;
-                    textDialog.text = messages[numberDialog]; // Отображение полного текста текущего диалога
+                    textDialog.text = messages[numberDialog]; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
                 }
                 else
                 {
@@ -47,6 +48,7 @@ public class Dialog : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isPlayerInRange = true;
+            messageText.gameObject.SetActive(true);
         }
     }
 
@@ -69,11 +71,14 @@ public class Dialog : MonoBehaviour
                 typingCoroutine = null;
                 isDialogActive = false;
             }
+            messageText.gameObject.SetActive(false);
         }
+
     }
 
     private void StartDialog()
     {
+        messageText.gameObject.SetActive(false);
         windowDialog.SetActive(true);
         Inventory.SetActive(false);
         Bag.SetActive(false);
@@ -101,7 +106,7 @@ public class Dialog : MonoBehaviour
             yield return new WaitForSeconds(0.02f);
         }
 
-        typingCoroutine = null; // Завершение корутины
+        typingCoroutine = null; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     }
 
     public void NextDialog()
