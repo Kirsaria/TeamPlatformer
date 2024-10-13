@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\College\\TeamPlatformer\\TeamPlatformer\\",
+  "WorkspaceRootPath": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\College\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|d:\\programming\\teamproject\\teamplatformer\\teamplatformer\\assets\\scripts\\ui\\shadowcaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\shadowcaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\College\\TeamPlatformer\\TeamPlatformer\\Assets\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Runtime\\2D\\Shadows\\ShadowCaster2D.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Runtime\\2D\\Shadows\\ShadowCaster2D.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\College\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Music\\Audio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Music\\Audio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\College\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\UI\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UI\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Music\\Audio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Music\\Audio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:Assets\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\UI\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\UI\\PauseMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +34,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShadowCaster.cs",
+              "DocumentMoniker": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\UI\\ShadowCaster.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ShadowCaster.cs",
+              "ToolTip": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\UI\\ShadowCaster.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\ShadowCaster.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T18:19:24.132Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "ShadowCaster2D.cs",
+              "DocumentMoniker": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Runtime\\2D\\Shadows\\ShadowCaster2D.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Runtime\\2D\\Shadows\\ShadowCaster2D.cs",
+              "ToolTip": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Runtime\\2D\\Shadows\\ShadowCaster2D.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.11\\Runtime\\2D\\Shadows\\ShadowCaster2D.cs",
+              "ViewState": "AgIAABkBAAAAAAAAAAAUwCIBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T18:08:06.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Audio.cs",
-              "DocumentMoniker": "D:\\College\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Music\\Audio.cs",
+              "DocumentMoniker": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Music\\Audio.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Music\\Audio.cs",
-              "ToolTip": "D:\\College\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Music\\Audio.cs",
+              "ToolTip": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Music\\Audio.cs",
               "RelativeToolTip": "Assets\\Scripts\\Music\\Audio.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -46,37 +76,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainMenu.cs",
-              "DocumentMoniker": "D:\\College\\TeamPlatformer\\TeamPlatformer\\Assets\\MainMenu.cs",
+              "DocumentMoniker": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\MainMenu.cs",
-              "ToolTip": "D:\\College\\TeamPlatformer\\TeamPlatformer\\Assets\\MainMenu.cs",
+              "ToolTip": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\MainMenu.cs",
               "RelativeToolTip": "Assets\\MainMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T10:52:32.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T10:52:32.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\College\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "DocumentMoniker": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ToolTip": "D:\\College\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAAAJkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAIBJwJkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T10:05:59.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T10:05:59.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PauseMenu.cs",
-              "DocumentMoniker": "D:\\College\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\UI\\PauseMenu.cs",
+              "DocumentMoniker": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\UI\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PauseMenu.cs",
-              "ToolTip": "D:\\College\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\UI\\PauseMenu.cs",
+              "ToolTip": "D:\\Programming\\TeamProject\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\UI\\PauseMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\PauseMenu.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAuwCoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
