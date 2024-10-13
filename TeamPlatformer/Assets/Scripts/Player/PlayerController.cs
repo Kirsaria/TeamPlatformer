@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
+    Rigidbody2D rb;
     public float speed;
     public float jumpForce;
     public Animator animator;
     BoxCollider2D box;
-    Rigidbody2D rb;
     SpriteRenderer sr;
     public int health = 3;
     public int numberOfHearts;
@@ -24,6 +24,8 @@ public class PlayerController : MonoBehaviour
     private Material matDefault;
     private SpriteRenderer spriteRender;
     private float blinkInterval = 3f;
+
+    private Vector3 checkPoint;
     public AudioSource DamageSound, WalkingSound, JumpingSound;
 
     void Start()
@@ -35,6 +37,7 @@ public class PlayerController : MonoBehaviour
         spriteRender = GetComponent<SpriteRenderer>();
         matBlink = Resources.Load("HiroBlink", typeof(Material)) as Material;
         matDefault = spriteRender.material;
+        checkPoint = transform.position;
     }
 
     void Update()
@@ -63,6 +66,7 @@ public class PlayerController : MonoBehaviour
 
         if (health == 0)
         {
+            isDead = true;
             animator.SetBool("CharacterDeath", true);
             StartCoroutine(HandleDeath());
         }
@@ -102,6 +106,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Checkpoint")
+        {
+            checkPoint = transform.position;
+        }
+    }
+
     void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Spikes"))
@@ -133,13 +145,14 @@ public class PlayerController : MonoBehaviour
     {
         //Ожидание проигрывания анимации смерти
         yield return new WaitForSeconds(2f);
-
         // Восстанавливаем здоровье. Я добавила просто так
         health = numberOfHearts;
         ResetMaterial();
-
+        isDead = false;
         //Сбрасываем состояние анимации смерти. Переход в состояние покоя
         animator.SetBool("CharacterDeath", false);
+        transform.position = checkPoint;
+
     }
 
 

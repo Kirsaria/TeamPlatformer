@@ -9,6 +9,7 @@ TagManager:
   - DialoguePanel
   - QuestObject
   - music
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
