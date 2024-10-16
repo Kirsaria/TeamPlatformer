@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class Slot : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Inventory inventory;
+    public int numberSlot;
+
+    private void Start()
     {
-        
+        inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if(transform.childCount <= 0)
+        {
+            inventory.isFull[numberSlot] = false;
+        }
+    }
+
+    public void DropItem()
+    {
+        foreach(Transform child in transform)
+        {
+            child.GetComponent<Spawn>().SpawnDroppedItem();
+            GameObject.Destroy(child.gameObject);
+        }
     }
 }

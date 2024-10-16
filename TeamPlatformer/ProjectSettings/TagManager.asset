@@ -7,9 +7,10 @@ TagManager:
   - Spikes
   - Star
   - DialoguePanel
-  - QuestObject
   - music
   - Checkpoint
+  - Brush
+  - Letter
   layers:
   - Default
   - TransparentFX

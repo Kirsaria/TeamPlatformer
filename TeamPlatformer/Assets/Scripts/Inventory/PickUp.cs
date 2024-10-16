@@ -45,7 +45,7 @@ public class PickUp : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-        else if(other.CompareTag("Player") && gameObject.CompareTag("QuestObject"))
+        else if(other.CompareTag("Player") && (gameObject.CompareTag("Brush") || gameObject.CompareTag("Letter")))
         {
             for (int i = 1; i < inventory.slots.Length; i++)
             {

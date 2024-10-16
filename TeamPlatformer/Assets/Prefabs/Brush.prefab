@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8093407506672013871}
   m_Layer: 0
   m_Name: Brush
-  m_TagString: QuestObject
+  m_TagString: Brush
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

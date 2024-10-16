@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2586090355981172439}
   m_Layer: 0
   m_Name: Letter
-  m_TagString: QuestObject
+  m_TagString: Letter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

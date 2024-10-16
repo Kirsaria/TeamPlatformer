@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3048459280326151994}
   - component: {fileID: 8942634771347334633}
   - component: {fileID: 2219169000719311374}
+  - component: {fileID: -4181604716172846782}
   m_Layer: 5
   m_Name: BrushIcon
   m_TagString: Untagged
@@ -75,3 +76,16 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-4181604716172846782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2452018695833205481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3795f68eeb51fc24a8b8d3bdfaadcf35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1558123327125168139, guid: 8ded2ca8a5428114d8d51a0492440b93, type: 3}
