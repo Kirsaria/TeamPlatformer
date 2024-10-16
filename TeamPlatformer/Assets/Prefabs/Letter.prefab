@@ -163,3 +163,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotButton: {fileID: 5479433281315459853, guid: d97475b66f2a5e9468661dde00a75d26, type: 3}
   starCounter: {fileID: 0}
+  id: 1

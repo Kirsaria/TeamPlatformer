@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\git\\TeamPlatformer\\TeamPlatformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|d:\\git\\teamplatformer\\teamplatformer\\assets\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|d:\\git\\teamplatformer\\teamplatformer\\assets\\getreward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\getreward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|d:\\git\\teamplatformer\\teamplatformer\\assets\\scripts\\ui\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\inventory\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\pickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\inventory\\spawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\spawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\dialogs\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogs\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +39,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Settings.cs",
-              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Settings.cs",
-              "RelativeDocumentMoniker": "Assets\\Settings.cs",
-              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Settings.cs",
-              "RelativeToolTip": "Assets\\Settings.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwC4AAAAcAAAAAAAAAA==",
+              "Title": "GetReward.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\GetReward.cs",
+              "RelativeDocumentMoniker": "Assets\\GetReward.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\GetReward.cs",
+              "RelativeToolTip": "Assets\\GetReward.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T20:58:21.548Z",
+              "WhenOpened": "2024-10-16T20:49:48.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PauseMenu.cs",
-              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\UI\\PauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PauseMenu.cs",
-              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\UI\\PauseMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UI\\PauseMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAATAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Spawn.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\Spawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\Spawn.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\Spawn.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\Spawn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T20:49:35.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-16T19:15:20.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PickUp.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\PickUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\PickUp.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\PickUp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\PickUp.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T18:46:55.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\Inventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\Inventory.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\Inventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T18:46:46.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Quest.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Quest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Quest.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Quest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Quest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T18:13:37.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dialogue.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Dialogs\\Dialogue.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogs\\Dialogue.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Dialogs\\Dialogue.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dialogs\\Dialogue.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T18:07:19.167Z"
             }
           ]
         }

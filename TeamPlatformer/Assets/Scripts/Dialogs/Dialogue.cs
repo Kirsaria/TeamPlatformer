@@ -15,6 +15,7 @@ public class Dialog : MonoBehaviour
     private int numberDialog = 0;
     private Coroutine typingCoroutine;
     private bool isPlayerInRange = false;
+    public bool isDialogEnd= false;
     private bool isDialogActive = false;
     Animator animator;
 
@@ -126,6 +127,7 @@ public class Dialog : MonoBehaviour
             Inventory.SetActive(true);
             animator.SetBool("Start", false);
             isDialogActive = false;
+            isDialogEnd = true;
         }
     }
 }

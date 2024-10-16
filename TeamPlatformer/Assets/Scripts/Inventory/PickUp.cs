@@ -7,7 +7,8 @@ public class PickUp : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject slotButton;
-    public Text starCounter; 
+    public Text starCounter;
+    public int id;
 
     private void Start()
     {
