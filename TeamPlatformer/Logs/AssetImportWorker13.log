@@ -1,0 +1,832 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.48f1 (8bf49c377ebf) revision 9172124'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 7549 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Unity Editor\2022.3.48f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+D:/Programming/TeamProject/TeamPlatformer/TeamPlatformer
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+53483
+Successfully changed project path to: D:/Programming/TeamProject/TeamPlatformer/TeamPlatformer
+D:/Programming/TeamProject/TeamPlatformer/TeamPlatformer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15284]  Target information:
+
+Player connection [15284]  * "[IP] 26.19.223.162 [Port] 0 [Flags] 2 [Guid] 2083145154 [EditorId] 2083145154 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CFREUVU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15284]  * "[IP] 192.168.100.96 [Port] 0 [Flags] 2 [Guid] 2083145154 [EditorId] 2083145154 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CFREUVU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15284] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15284] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 21.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.48f1 (8bf49c377ebf)
+[Subsystems] Discovering subsystems at path D:/Unity/Unity Editor/2022.3.48f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Programming/TeamProject/TeamPlatformer/TeamPlatformer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3937 MB
+    Driver:   32.0.15.6109
+Initialize mono
+Mono path[0] = 'D:/Unity/Unity Editor/2022.3.48f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Unity Editor/2022.3.48f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Unity Editor/2022.3.48f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Unity Editor/2022.3.48f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/Unity Editor/2022.3.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006205 seconds.
+- Loaded All Assemblies, in  0.494 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.340 seconds
+Domain Reload Profiling: 835ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (341ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (276ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.060 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.193 seconds
+Domain Reload Profiling: 2254ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (756ms)
+		LoadAssemblies (508ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (368ms)
+			TypeCache.Refresh (299ms)
+				TypeCache.ScanAssembly (270ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (902ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (637ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5861 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (0.6 MB). Loaded Objects now: 6323.
+Memory consumption went from 223.7 MB to 223.1 MB.
+Total: 6.793700 ms (FindLiveObjects: 0.568800 ms CreateObjectMapping: 0.733400 ms MarkObjects: 4.953400 ms  DeleteObjects: 0.536600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 768734.952007 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_32.asset
+  artifactKey: Guid(c796992311cf2d44e9a07805aad9a611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_32.asset using Guid(c796992311cf2d44e9a07805aad9a611) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '320543d1ca222705347a893ce9b43369') in 0.101501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.169866 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_36.asset
+  artifactKey: Guid(5e0cac16466df604caf0a4d3220fd3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_36.asset using Guid(5e0cac16466df604caf0a4d3220fd3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cd7285384eed3ee0c36877c461259343') in 0.020988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_40.asset
+  artifactKey: Guid(eb777e6e02b727c4f85e3a05a3cac232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_40.asset using Guid(eb777e6e02b727c4f85e3a05a3cac232) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f815dabfc88986ca997b3bc23f10ef11') in 0.019043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_55.asset
+  artifactKey: Guid(0a9998516d330474290823ba115e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_55.asset using Guid(0a9998516d330474290823ba115e5065) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8113fddafe0676a50a4c612bac07c9cf') in 0.023754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_51.asset
+  artifactKey: Guid(21ddf47027b3bb845a7d96053ccbc733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_51.asset using Guid(21ddf47027b3bb845a7d96053ccbc733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '78a197c57b0471291802c5ac89d568e2') in 0.021415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_53.asset
+  artifactKey: Guid(9722a03ecc829a64fb8ee8ba35f9d0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_53.asset using Guid(9722a03ecc829a64fb8ee8ba35f9d0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4334df1a02bb0c518fcd31293d954911') in 0.018687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_41.asset
+  artifactKey: Guid(a4558515d7cc8af41bfba56d85080a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_41.asset using Guid(a4558515d7cc8af41bfba56d85080a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0ed6d514ceba8aff2928461947b65a3d') in 0.017622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_49.asset
+  artifactKey: Guid(58acc6be436f88343ad7266499af44b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_49.asset using Guid(58acc6be436f88343ad7266499af44b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e06b23ded5cca0ceddbbe8f5b598b2aa') in 0.020298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_47.asset
+  artifactKey: Guid(bc1f4cba134dcad41a9d5b03a3e85087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_47.asset using Guid(bc1f4cba134dcad41a9d5b03a3e85087) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '149bf5e39ba6cfde8c6a8e76991f48af') in 0.020406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_62.asset
+  artifactKey: Guid(80761e6967b17144686a900fba0c316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_62.asset using Guid(80761e6967b17144686a900fba0c316a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '75ca80fc8fda852bfc8f3a97c7995311') in 0.017044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.252121 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_64.asset
+  artifactKey: Guid(41201830043eed24382c16425abe692f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_64.asset using Guid(41201830043eed24382c16425abe692f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '84152c3a49128723f50ec9df8023232d') in 0.020517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_67.asset
+  artifactKey: Guid(7abc06de4e8d73c4d82328d0e1408c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_67.asset using Guid(7abc06de4e8d73c4d82328d0e1408c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '725cb57c85489b343da5d0d8bd8b6253') in 0.019842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_76.asset
+  artifactKey: Guid(1b83c88b0068d1a4e9e33c21d67b52df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_76.asset using Guid(1b83c88b0068d1a4e9e33c21d67b52df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '0f6a63a25e88354b1d66701c18802ffb') in 0.020842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_70.asset
+  artifactKey: Guid(310b8a40b61bdc04cbb9089a236e8802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_70.asset using Guid(310b8a40b61bdc04cbb9089a236e8802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f99407036e852b3786ed6116655b7657') in 0.020734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.285887 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_78.asset
+  artifactKey: Guid(17aefb77aa7ea6843b6f2ecfecc93762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_78.asset using Guid(17aefb77aa7ea6843b6f2ecfecc93762) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9b822a9ab79b83a9111bf1248ae19c30') in 0.026961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_80.asset
+  artifactKey: Guid(5f5a5f0b7bf96fe45b00163dc3750f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_80.asset using Guid(5f5a5f0b7bf96fe45b00163dc3750f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '316bbdc77cc817802df456c802b4f369') in 0.017433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_90.asset
+  artifactKey: Guid(6b41240482f138d4fb4f336c0e9cc5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_90.asset using Guid(6b41240482f138d4fb4f336c0e9cc5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'beb9fbd7e8c39438e42ac0e2bf68a3eb') in 0.015889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_88.asset
+  artifactKey: Guid(64d22b73644a8264caabeab7b06130de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_88.asset using Guid(64d22b73644a8264caabeab7b06130de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '97526263c8f3be583a28b48bffb3b4ab') in 0.019247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.306328 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_92.asset
+  artifactKey: Guid(e216791fd7a75cf4cbccc169e64c9651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_92.asset using Guid(e216791fd7a75cf4cbccc169e64c9651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8719efb11bd40d26587a2100f74176a5') in 0.015603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_100.asset
+  artifactKey: Guid(6b65473a8a41c064c94fd1060379c3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_100.asset using Guid(6b65473a8a41c064c94fd1060379c3ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'd2b821d341367882e67370ee065db3f7') in 0.020029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_101.asset
+  artifactKey: Guid(3ea0ec3b46cba29449c36de98fab9217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_101.asset using Guid(3ea0ec3b46cba29449c36de98fab9217) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5f9260b176cf40cf149f623215bb249d') in 0.010020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_96.asset
+  artifactKey: Guid(712e016fe047200458638562bbae86c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_96.asset using Guid(712e016fe047200458638562bbae86c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f87efdfab75666d2abf987e2700b75d') in 0.020056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_116.asset
+  artifactKey: Guid(d428d847e8441b846898679ba6fdc806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_116.asset using Guid(d428d847e8441b846898679ba6fdc806) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7ad2d81da2adcda964624933fae6bae2') in 0.018390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_117.asset
+  artifactKey: Guid(925544a95990d8b4e9ef3d1764ec47b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_117.asset using Guid(925544a95990d8b4e9ef3d1764ec47b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fb5e64674b045c4e46139981f0260735') in 0.017167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_105.asset
+  artifactKey: Guid(4f66178ec3b040b4eaaf1dbc53b1da8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_105.asset using Guid(4f66178ec3b040b4eaaf1dbc53b1da8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8f8ead09f28881e12cc757ca1ccf6eaf') in 0.020109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_118.asset
+  artifactKey: Guid(85a16748334e2fd40ad7c8baf474b3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_118.asset using Guid(85a16748334e2fd40ad7c8baf474b3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9983dec79ec5d43963da4b0dd21314aa') in 0.016677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_108.asset
+  artifactKey: Guid(a2882863a7f4a0d4b984185207e920ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_108.asset using Guid(a2882863a7f4a0d4b984185207e920ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '048d669c71d31e03c1e6d0f5a9217e9c') in 0.019982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.584521 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_120.asset
+  artifactKey: Guid(5fe90b92c91c1f044bd10c0f37122db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_120.asset using Guid(5fe90b92c91c1f044bd10c0f37122db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a12e4efcf3a2b252fb073cd3434b74da') in 0.021239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_131.asset
+  artifactKey: Guid(2bc4ae1b447fbf7459fb5665d40ace34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_131.asset using Guid(2bc4ae1b447fbf7459fb5665d40ace34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'df98b66c716b6d2b674537d602a3795e') in 0.006200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_122.asset
+  artifactKey: Guid(4fa0ce006c6fa46499bf995bbe696705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_122.asset using Guid(4fa0ce006c6fa46499bf995bbe696705) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '98ccceff5dcfe917890eb3fc76082c5d') in 0.021378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_137.asset
+  artifactKey: Guid(a959474e7b2049241aca6f8883d3cd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_137.asset using Guid(a959474e7b2049241aca6f8883d3cd3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5c528d125c2bec5c5d5023f722e4c422') in 0.004264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_139.asset
+  artifactKey: Guid(859b63df66b214f4b97e53105d49e18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_139.asset using Guid(859b63df66b214f4b97e53105d49e18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '54031dc67662964380237ccfe9097378') in 0.005506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_133.asset
+  artifactKey: Guid(1dfa7da79961b1940bde97fc3af8630f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_133.asset using Guid(1dfa7da79961b1940bde97fc3af8630f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'cd224e57b7836baedad0004e4e28dbd9') in 0.005268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_128.asset
+  artifactKey: Guid(316efa09af180414d841258ef5e01b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_128.asset using Guid(316efa09af180414d841258ef5e01b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ab934697ae8f596622d5f56fbda0352b') in 0.018975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_132.asset
+  artifactKey: Guid(c04e0c48f9691794492e24f7dbf0c9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_132.asset using Guid(c04e0c48f9691794492e24f7dbf0c9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9c08b4f43926cf5752e0d281dccdab78') in 0.006498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_141.asset
+  artifactKey: Guid(52257d786e3eb1f43a5571346036b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_141.asset using Guid(52257d786e3eb1f43a5571346036b7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '14d840e9c8a737994546857f2c4ef6d4') in 0.007231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_145.asset
+  artifactKey: Guid(60e2538dcf030a84b98870a72762e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_145.asset using Guid(60e2538dcf030a84b98870a72762e4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2002f4562124aa2ba7f605b755fcfcdf') in 0.003789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.238481 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_148.asset
+  artifactKey: Guid(47bd66e456d1a834daabadb31d1f5731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_148.asset using Guid(47bd66e456d1a834daabadb31d1f5731) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '23b9802255bed503df6effb5d3f6ca3a') in 0.003559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_154.asset
+  artifactKey: Guid(0ab82f2cea8e75a4ca69c7c7783aaac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_154.asset using Guid(0ab82f2cea8e75a4ca69c7c7783aaac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b0f4ffcb59a495c0f6a7055615dd7dda') in 0.005452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_152.asset
+  artifactKey: Guid(4a3a7cfb2e5b37d4f998853dfa4ddc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_152.asset using Guid(4a3a7cfb2e5b37d4f998853dfa4ddc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2845e1cc6432421a9452ac049a5ad7d4') in 0.004564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_157.asset
+  artifactKey: Guid(78488aa223a9386469bd624e77bd2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_157.asset using Guid(78488aa223a9386469bd624e77bd2541) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6fb6b7fb7ade914704ff7f0c353cde5b') in 0.003732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_160.asset
+  artifactKey: Guid(35bba1903f168f9419888c21b20fc2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_160.asset using Guid(35bba1903f168f9419888c21b20fc2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b37301826d6ac05874d3d173ec7bf835') in 0.003381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.013386 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_162.asset
+  artifactKey: Guid(c467ee3515e5b0543b3942082eea56fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_162.asset using Guid(c467ee3515e5b0543b3942082eea56fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4f5aefb1417de8af09e4db22632fa89d') in 0.003604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_164.asset
+  artifactKey: Guid(a4a6d09d63bfebd41bebb52f15e176cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_164.asset using Guid(a4a6d09d63bfebd41bebb52f15e176cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24fe1d5ebf9e9455474d942e7e6da42f') in 0.004270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_169.asset
+  artifactKey: Guid(a7eafcebfc9f33543b7422121aeb56c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_169.asset using Guid(a7eafcebfc9f33543b7422121aeb56c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fa94e7c6988b919bda9e967e88071ef8') in 0.004499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_174.asset
+  artifactKey: Guid(02732ca24218ea448868100a11e58fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_174.asset using Guid(02732ca24218ea448868100a11e58fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '24a28c3803a02e33addbffe9cbf8099b') in 0.005029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_165.asset
+  artifactKey: Guid(67aa404812594e643b483a36a922a309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_165.asset using Guid(67aa404812594e643b483a36a922a309) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8d415bf5ffb7952f5a55fa5a701a9043') in 0.004529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.164925 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_176.asset
+  artifactKey: Guid(4ed24756522dc284a9ba4c433bca6053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_176.asset using Guid(4ed24756522dc284a9ba4c433bca6053) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ceb9bb67f2ad89be224a6ef64cd29b9') in 0.004729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_178.asset
+  artifactKey: Guid(a69471f2810407047b62b596f9477f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_178.asset using Guid(a69471f2810407047b62b596f9477f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b2403ca84713ae51b313a301073bb468') in 0.003985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_188.asset
+  artifactKey: Guid(c14c04874243fe547b49d76c4b9501ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_188.asset using Guid(c14c04874243fe547b49d76c4b9501ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9ac0a077e58d3c37428adbf624ab2867') in 0.003792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_182.asset
+  artifactKey: Guid(81d930f471f00e747977761ba172b9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_182.asset using Guid(81d930f471f00e747977761ba172b9ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1909099e9cfa9f1fc0b6a4a42506f3f7') in 0.007279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_183.asset
+  artifactKey: Guid(cfd423c91be865d4e8636172a7deb58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_183.asset using Guid(cfd423c91be865d4e8636172a7deb58b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '1ae62b7f9f8c218660c72157fe6c69a7') in 0.003137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.032475 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_190.asset
+  artifactKey: Guid(96fad547acf346141ac7e9d316851492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_190.asset using Guid(96fad547acf346141ac7e9d316851492) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '605a700b407b8db91269adc8a493359f') in 0.004575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_197.asset
+  artifactKey: Guid(48fe63709643eeb4da8bb172938447b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_197.asset using Guid(48fe63709643eeb4da8bb172938447b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f76f728164d62e45daeca919c786140a') in 0.006406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_200.asset
+  artifactKey: Guid(9e32361b98d16d440adcf5c62ad825cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_200.asset using Guid(9e32361b98d16d440adcf5c62ad825cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f898cf6f4eaf454c0d24990a302f5ec4') in 0.005159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_198.asset
+  artifactKey: Guid(491a6fcd86460d84ca25848219750e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_198.asset using Guid(491a6fcd86460d84ca25848219750e4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '37989b6d1d130899ea73748c79a4e0d4') in 0.004561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_193.asset
+  artifactKey: Guid(be62d8c057a08364eb7d31ade3da29d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_193.asset using Guid(be62d8c057a08364eb7d31ade3da29d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c1a17fba1b751d143db8afeb748a3a2b') in 0.003210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.388942 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_204.asset
+  artifactKey: Guid(746d56aef11190444b0b4160fb90753c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_204.asset using Guid(746d56aef11190444b0b4160fb90753c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d8db529edb0907b245f65e81cec35a1') in 0.004383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_209.asset
+  artifactKey: Guid(c5d5cd20818d0734c832b06bce17aa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_209.asset using Guid(c5d5cd20818d0734c832b06bce17aa65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c738cdeda0d9f56510044cc36663d58f') in 0.004255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_215.asset
+  artifactKey: Guid(820bb462c90e41e4ca6b8eacd408773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_215.asset using Guid(820bb462c90e41e4ca6b8eacd408773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e2068f5f1d5fc53584d3f3b386ad3d23') in 0.005751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_210.asset
+  artifactKey: Guid(273035e10ac4f8742aa47dd8f29e4653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_210.asset using Guid(273035e10ac4f8742aa47dd8f29e4653) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '795a177aad389ac55391b54d1811481b') in 0.005142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_206.asset
+  artifactKey: Guid(479985337ce15684cb5dcad07bd4e44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_206.asset using Guid(479985337ce15684cb5dcad07bd4e44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '31dfe00f4bc826e20d50b2747b4f2bf7') in 0.004651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_219.asset
+  artifactKey: Guid(47ba4cd659e48104b987a68174fa5393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_219.asset using Guid(47ba4cd659e48104b987a68174fa5393) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e04cf30c42dea25442d01ca45cfee8d0') in 0.006380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_229.asset
+  artifactKey: Guid(2640badd9d333bd4c9bd8510692024d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_229.asset using Guid(2640badd9d333bd4c9bd8510692024d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b89703e7a188592ec08cbf504cc261a7') in 0.004314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_230.asset
+  artifactKey: Guid(9c5201f3b3e564444b3d3415d5e5d616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_230.asset using Guid(9c5201f3b3e564444b3d3415d5e5d616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c862e433e58ad144d2171c4bb7338e56') in 0.005495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_224.asset
+  artifactKey: Guid(7915cb19c8c0d7e4a8106038f33aa9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_224.asset using Guid(7915cb19c8c0d7e4a8106038f33aa9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3cad7702d04b430b6728ccb3b4d15366') in 0.005058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.019792 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_232.asset
+  artifactKey: Guid(2eb1c67ec2fb6134bb10cff76f634aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_232.asset using Guid(2eb1c67ec2fb6134bb10cff76f634aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '418b94ec71289e3a8949ded86e8d6629') in 0.005343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_243.asset
+  artifactKey: Guid(db64a8cd676e5ee41b31bf31651bde5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_243.asset using Guid(db64a8cd676e5ee41b31bf31651bde5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5aef2c1d68d46c70400743407d6de07c') in 0.004975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_239.asset
+  artifactKey: Guid(c07587b281e141d498db5ef7c4628171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_239.asset using Guid(c07587b281e141d498db5ef7c4628171) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ec9461dbb9055ad3cc7e1517acca6644') in 0.003859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_244.asset
+  artifactKey: Guid(b125082f70d080c4ea82bb5e1d6f2daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_244.asset using Guid(b125082f70d080c4ea82bb5e1d6f2daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c3cfe0d820a9a5b593ea03e77b04861f') in 0.003643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Tiles/EndScene/TX Village Props_235.asset
+  artifactKey: Guid(1039b26b4f3f3b9468bcb0b956716faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiles/EndScene/TX Village Props_235.asset using Guid(1039b26b4f3f3b9468bcb0b956716faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b3a1aef9cd6638d63907cbb643d5cfaf') in 0.005411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
