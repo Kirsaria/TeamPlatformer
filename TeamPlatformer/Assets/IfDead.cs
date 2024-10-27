@@ -6,7 +6,7 @@ public class IfDead : MonoBehaviour
     public GameObject NPSInChase;
     public PlayerController playerController;
     public Dialog dialog;
-
+    public GameObject Barrier;
 
     void Update()
     {
@@ -15,6 +15,7 @@ public class IfDead : MonoBehaviour
             NPSInChase.SetActive(false);
             NPSBeforeChase.SetActive(true);
             dialog.isDialogEnd = false;
+            Barrier.SetActive(true);
         }
     }
 }

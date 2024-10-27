@@ -14,6 +14,8 @@ public class BossAI : MonoBehaviour
     private bool hasJumped = false; // Флаг, чтобы отслеживать прыжок игрока
     public PlayerController playerController;
     public Vector3 fixedPosition;
+    private SpriteRenderer spriteRenderer;
+    public float veryCloseRange;
 
     private bool isTouchingObstacle = false; // Флаг, чтобы проверять, касается ли босс препятствия
 
@@ -38,6 +40,14 @@ public class BossAI : MonoBehaviour
             DetectPlayer();
             MoveTowardsPlayer(); // Преследование игрока
         }
+
+    }
+
+    private void Start()
+    {
+
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        playerController = FindObjectOfType<PlayerController>();
     }
 
     private void DetectPlayer()
@@ -69,8 +79,32 @@ public class BossAI : MonoBehaviour
         {
             // Рассчитываем направление к игроку
             Vector2 direction = (player.position - transform.position).normalized;
-            rb.velocity = new Vector2(direction.x * moveSpeed, rb.velocity.y); // Двигаем босса в сторону игрока
+
+            // Двигаем босса в сторону игрока
+            rb.velocity = new Vector2(direction.x * moveSpeed, rb.velocity.y);
+
+            if (direction.x > 0)
+            {
+                spriteRenderer.flipX = true; 
+            }
+
+            else if (direction.x < 0)
+            {
+                spriteRenderer.flipX = false;
+            }
+
+            if (distanceToPlayer < veryCloseRange)
+            {
+                playerController.health = 0;
+            }
+
         }
+        else
+        {
+            // Остановите движение, если игрок вне диапазона обнаружения
+            rb.velocity = Vector2.zero;
+        }
+
     }
 
     private void JumpTowardsPlayer()
