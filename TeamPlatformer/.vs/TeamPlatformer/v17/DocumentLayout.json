@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\git\\TeamPlatformer\\TeamPlatformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|d:\\git\\teamplatformer\\teamplatformer\\assets\\endsceneportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\endsceneportal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|d:\\git\\teamplatformer\\teamplatformer\\assets\\ifdead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\ifdead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\botai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\botai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EndScenePortal.cs",
-              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\EndScenePortal.cs",
-              "RelativeDocumentMoniker": "Assets\\EndScenePortal.cs",
-              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\EndScenePortal.cs",
-              "RelativeToolTip": "Assets\\EndScenePortal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Chase.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Chase.cs",
+              "RelativeDocumentMoniker": "Assets\\Chase.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Chase.cs",
+              "RelativeToolTip": "Assets\\Chase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T09:14:42.92Z",
+              "WhenOpened": "2024-10-27T16:22:00.485Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IfDead.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\IfDead.cs",
+              "RelativeDocumentMoniker": "Assets\\IfDead.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\IfDead.cs",
+              "RelativeToolTip": "Assets\\IfDead.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:47:29.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BotAi.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\BotAi.cs",
+              "RelativeDocumentMoniker": "Assets\\BotAi.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\BotAi.cs",
+              "RelativeToolTip": "Assets\\BotAi.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:26:51.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Quest.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Quest.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Quest.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Quest.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Quest.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:20:58.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:56:24.577Z"
             }
           ]
         }

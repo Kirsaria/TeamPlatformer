@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour
     public Sprite fullHeart;
     public Sprite emptyHeart;
     private bool isWalking = false;
-    private bool isDead = false;
+    public bool isDead = false;
     private bool isOnSpikes = false;
     private Coroutine damageCoroutine;
     private Material matBlink;
@@ -64,11 +64,11 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if (health == 0)
+        if (health == 0 && !isDead)
         {
             isDead = true;
             animator.SetBool("CharacterDeath", true);
-            StartCoroutine(HandleDeath());
+            Invoke("HandleDeathAnimationComplete", 2f);
         }
 
         if (Mathf.Abs(movement) > 0.1f)
@@ -96,7 +96,18 @@ public class PlayerController : MonoBehaviour
 
         sr.flipX = movement < 0 ? true : false;
     }
-
+    private void HandleDeathAnimationComplete()
+    {
+        animator.SetBool("CharacterDeath", false);
+        StartCoroutine(ResetPositionAfterDelay());
+    }
+    private IEnumerator ResetPositionAfterDelay()
+    {
+        yield return new WaitForSeconds(0.1f);
+        transform.position = checkPoint;
+        isDead = false;
+        health = numberOfHearts;
+    }
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Spikes") && !isOnSpikes)
