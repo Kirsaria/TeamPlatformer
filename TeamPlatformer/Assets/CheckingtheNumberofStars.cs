@@ -6,7 +6,7 @@ public class CheckingtheNumberofStars : MonoBehaviour
     public int requiredStarCount = 5;
     public Sprite doorOpenSprite;
     public Sprite doorClosedSprite;
-
+    public GameObject Portal;
     private SpriteRenderer spriteRenderer;
     public Text starCountText;
     public Text message;
@@ -29,6 +29,7 @@ public class CheckingtheNumberofStars : MonoBehaviour
                 if (currentStarCount >= requiredStarCount)
                 {
                     OpenDoor();
+                    Portal.gameObject.SetActive(true);
                 }
                 else
                 {

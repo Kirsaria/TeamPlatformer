@@ -11,6 +11,7 @@ TagManager:
   - Checkpoint
   - Brush
   - Letter
+  - musicMaint
   layers:
   - Default
   - TransparentFX

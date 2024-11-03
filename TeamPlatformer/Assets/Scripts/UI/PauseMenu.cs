@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,16 +5,15 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-
             if (GameIsPaused)
             {
                 Resume();
             }
-
             else
             {
                 Pause();
@@ -28,24 +24,40 @@ public class PauseMenu : MonoBehaviour
     public void Pause()
     {
         pauseMenuUI.SetActive(true);
-        Time.timeScale = 0;
         GameIsPaused = true;
+        Time.timeScale = 0;
     }
+
     public void Resume()
     {
-        pauseMenuUI.SetActive(false);
         GameIsPaused = false;
-        Time.timeScale = 1f;
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1;
     }
 
     public void LoadMenu()
     {
-        Time.timeScale = 1f;
+        StopMusic();
+        GameIsPaused = false;
+        Time.timeScale = 1;
         SceneManager.LoadScene("SceneMainMenu");
     }
 
     public void QuitGame()
     {
-        Debug.Log("Игра закрылась");
+        Application.Quit();
+    }
+
+    private void StopMusic()
+    {
+        GameObject musicObject = GameObject.FindWithTag("music");
+        if (musicObject != null)
+        {
+            AudioSource audioSource = musicObject.GetComponent<AudioSource>();
+            if (audioSource != null)
+            {
+                Destroy(musicObject);
+            }
+        }
     }
 }
