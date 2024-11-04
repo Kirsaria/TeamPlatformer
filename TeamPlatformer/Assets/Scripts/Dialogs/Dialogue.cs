@@ -5,16 +5,16 @@ using System.Collections;
 public class Dialog : MonoBehaviour
 {
     public GameObject windowDialog;
-    public GameObject Inventory;
-    public GameObject Bag;
+    public GameObject Inventory = null;
+    public GameObject Bag = null;
     public Text textDialog;
     public Text nameText;
-    public Text messageText;
+    public Text messageText = null;
     public string[] messages;
     public string[] names;
     private int numberDialog = 0;
     private Coroutine typingCoroutine;
-    private bool isPlayerInRange = false;
+    public bool isPlayerInRange = false;
     public bool isDialogEnd= false;
     private bool isDialogActive = false;
     Animator animator;
@@ -58,31 +58,54 @@ public class Dialog : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isPlayerInRange = false;
-            if (windowDialog.activeSelf)
-            {
-                Inventory.SetActive(true);
-                Bag.SetActive(true);
-                animator.SetBool("Start", false);
 
+            if (windowDialog != null && windowDialog.activeSelf)
+            {
+                if (Inventory != null)
+                {
+                    Inventory.SetActive(true);
+                }
+
+                if (Bag != null)
+                {
+                    Bag.SetActive(true);
+                }
+
+                animator.SetBool("Start", false);
                 numberDialog = 0;
+
                 if (typingCoroutine != null)
                 {
                     StopCoroutine(typingCoroutine);
                 }
+
                 typingCoroutine = null;
                 isDialogActive = false;
             }
+
+            if (messageText != null)
+            {
+                messageText.gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void StartDialog()
+    { if (messageText != null)
+        {
             messageText.gameObject.SetActive(false);
         }
 
-    }
-
-    private void StartDialog()
-    {
-        messageText.gameObject.SetActive(false);
         windowDialog.SetActive(true);
-        Inventory.SetActive(false);
-        Bag.SetActive(false);
+        if (Inventory != null)
+        {
+            Inventory.SetActive(false);
+        }
+        if (Bag != null)
+        {
+            Bag.SetActive(false);
+        }
+
         animator.SetBool("Start", true);
         numberDialog = 0;
         if (typingCoroutine != null)
@@ -93,7 +116,7 @@ public class Dialog : MonoBehaviour
         isDialogActive = true;
     }
 
-    private IEnumerator TypeSentence()
+    public IEnumerator TypeSentence()
     {
         string sentence = messages[numberDialog];
         string characterName = names[numberDialog];
@@ -107,7 +130,7 @@ public class Dialog : MonoBehaviour
             yield return new WaitForSeconds(0.02f);
         }
 
-        typingCoroutine = null; // ���������� ��������
+        typingCoroutine = null;
     }
 
     public void NextDialog()
@@ -123,8 +146,15 @@ public class Dialog : MonoBehaviour
         }
         else
         {
-            Bag.SetActive(true);
+            if (Bag != null)
+            {
+                Bag.SetActive(true);
+            }
+            if (Inventory != null)
+            { 
             Inventory.SetActive(true);
+
+            }
             animator.SetBool("Start", false);
             isDialogActive = false;
             isDialogEnd = true;

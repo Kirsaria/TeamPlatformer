@@ -40,8 +40,10 @@ public class CheckingtheNumberofStars : MonoBehaviour
     }
 
     private void OnTriggerExit2D(Collider2D collision)
-    {
-        message.gameObject.SetActive(false);
+    {   if (message != null)
+        {
+            message.gameObject.SetActive(false);
+        }
     }
 
     private int GetCurrentStarCount()
