@@ -3,68 +3,72 @@
   "WorkspaceRootPath": "D:\\git\\TeamPlatformer\\TeamPlatformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|d:\\git\\teamplatformer\\teamplatformer\\assets\\endthegamr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\endthegamr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|d:\\git\\teamplatformer\\teamplatformer\\assets\\scripts\\playercontrollerfinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontrollerfinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\checkingthenumberofstars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\checkingthenumberofstars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\dialogs\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogs\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\showenddialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\showenddialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\ui\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\music\\dontdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\music\\dontdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\playercontrollerfinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\playercontrollerfinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Chase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\ui\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\EndTheGamr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\EndTheGamr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\dialogs\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialogs\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\music\\dontdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\music\\dontdestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\inventory\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\slot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\ifdead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\ifdead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\botai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\botai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|D:\\git\\TeamPlatformer\\TeamPlatformer\\assets\\scripts\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC0A6A7F-5649-C122-0FCF-B5B69A5574E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\ShowEndDialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ShowEndDialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\AudioManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\PlayerControllerFinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\PlayerControllerFinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\CheckingtheNumberofStars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\CheckingtheNumberofStars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\IfDead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\IfDead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\BotAi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\BotAi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,24 +78,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Chase.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Chase.cs",
               "RelativeDocumentMoniker": "Assets\\Chase.cs",
               "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Chase.cs",
               "RelativeToolTip": "Assets\\Chase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T16:22:00.485Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "PlayerControllerFinal.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\PlayerControllerFinal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControllerFinal.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\PlayerControllerFinal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerControllerFinal.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswDMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T10:34:54.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwFUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T15:56:24.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ShowEndDialog.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\ShowEndDialog.cs",
               "RelativeDocumentMoniker": "Assets\\ShowEndDialog.cs",
@@ -103,20 +132,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "EndTheGamr.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\EndTheGamr.cs",
               "RelativeDocumentMoniker": "Assets\\EndTheGamr.cs",
               "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\EndTheGamr.cs",
               "RelativeToolTip": "Assets\\EndTheGamr.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T22:33:46.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-03T22:33:46.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Dialogue.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Dialogs\\Dialogue.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dialogs\\Dialogue.cs",
@@ -128,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Settings.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Settings.cs",
               "RelativeDocumentMoniker": "Assets\\Settings.cs",
@@ -140,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\AudioManager.cs",
@@ -152,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "DontDestroy.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Music\\DontDestroy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Music\\DontDestroy.cs",
@@ -164,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\UI\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PauseMenu.cs",
@@ -172,11 +199,12 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\PauseMenu.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAYwDoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T22:24:49.686Z"
+              "WhenOpened": "2024-11-02T22:24:49.686Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\MainMenu.cs",
@@ -188,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "PlayerControllerFinal.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\PlayerControllerFinal.cs",
               "RelativeDocumentMoniker": "Assets\\PlayerControllerFinal.cs",
@@ -200,19 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ToolTip": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Player\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAowC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T15:56:24.577Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "Slot.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Inventory\\Slot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\Slot.cs",
@@ -224,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "CheckingtheNumberofStars.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\CheckingtheNumberofStars.cs",
               "RelativeDocumentMoniker": "Assets\\CheckingtheNumberofStars.cs",
@@ -236,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "IfDead.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\IfDead.cs",
               "RelativeDocumentMoniker": "Assets\\IfDead.cs",
@@ -248,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "BotAi.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\BotAi.cs",
               "RelativeDocumentMoniker": "Assets\\BotAi.cs",
@@ -260,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
               "Title": "Quest.cs",
               "DocumentMoniker": "D:\\git\\TeamPlatformer\\TeamPlatformer\\Assets\\Scripts\\Quest.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Quest.cs",
