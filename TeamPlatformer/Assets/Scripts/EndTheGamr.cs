@@ -33,6 +33,7 @@ public class EndTheGame : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         playerController.speed = 0;
+        playerController.jumpForce = 0;
         dialog.StartDialog();
         dialogStarted = true;
         dialog.isPlayerInRange = true;

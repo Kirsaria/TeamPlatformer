@@ -17,6 +17,7 @@ public class Dialog : MonoBehaviour
     public bool isPlayerInRange = false;
     public bool isDialogEnd= false;
     private bool isDialogActive = false;
+    public AudioSource audioSourceForNPC;
     Animator animator;
 
     private void Update()
@@ -30,7 +31,7 @@ public class Dialog : MonoBehaviour
                 {
                     StopCoroutine(typingCoroutine);
                     typingCoroutine = null;
-                    textDialog.text = messages[numberDialog]; // ����������� ������� ������ �������� �������
+                    textDialog.text = messages[numberDialog];
                 }
                 else
                 {
@@ -123,7 +124,10 @@ public class Dialog : MonoBehaviour
 
         nameText.text = characterName;
         textDialog.text = "";
-
+        if (characterName != "Фиби")
+        {
+            //audioSourceForNPC.Play();
+        }
         foreach (char letter in sentence)
         {
             textDialog.text += letter;

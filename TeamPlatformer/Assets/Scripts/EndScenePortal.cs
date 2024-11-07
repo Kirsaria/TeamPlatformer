@@ -10,7 +10,15 @@ public class EndScenePortal : MonoBehaviour
         
         if (other.CompareTag("Player"))
         {
-
+            GameObject musicObject = GameObject.FindWithTag("music");
+            if (musicObject != null)
+            {
+                AudioSource audioSource = musicObject.GetComponent<AudioSource>();
+                if (audioSource != null)
+                {
+                    Destroy(musicObject);
+                }
+            }
             SceneManager.LoadScene("FinalScene");
         }
     }
