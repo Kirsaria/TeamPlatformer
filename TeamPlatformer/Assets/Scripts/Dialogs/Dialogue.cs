@@ -108,7 +108,6 @@ public class Dialog : MonoBehaviour
         }
 
         animator.SetBool("Start", true);
-        numberDialog = 0;
         if (typingCoroutine != null)
         {
             StopCoroutine(typingCoroutine);
@@ -119,15 +118,10 @@ public class Dialog : MonoBehaviour
 
     public IEnumerator TypeSentence()
     {
-        string sentence = messages[numberDialog];
         string characterName = names[numberDialog];
-
         nameText.text = characterName;
+        string sentence = messages[numberDialog];
         textDialog.text = "";
-        if (characterName != "Фиби")
-        {
-            //audioSourceForNPC.Play();
-        }
         foreach (char letter in sentence)
         {
             textDialog.text += letter;
@@ -160,6 +154,7 @@ public class Dialog : MonoBehaviour
 
             }
             animator.SetBool("Start", false);
+            numberDialog = 0;
             isDialogActive = false;
             isDialogEnd = true;
         }

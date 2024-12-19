@@ -37,7 +37,6 @@ public class PauseMenu : MonoBehaviour
 
     public void LoadMenu()
     {
-        StopMusic();
         GameIsPaused = false;
         Time.timeScale = 1;
         SceneManager.LoadScene("SceneMainMenu");
@@ -48,16 +47,5 @@ public class PauseMenu : MonoBehaviour
         Application.Quit();
     }
 
-    private void StopMusic()
-    {
-        GameObject musicObject = GameObject.FindWithTag("music");
-        if (musicObject != null)
-        {
-            AudioSource audioSource = musicObject.GetComponent<AudioSource>();
-            if (audioSource != null)
-            {
-                Destroy(musicObject);
-            }
-        }
-    }
+    
 }

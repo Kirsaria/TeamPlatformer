@@ -24,12 +24,9 @@ public class Settings : MonoBehaviour
             }
         }
 
-        resolutionDropdown.ClearOptions();
         resolutionDropdown.AddOptions(options);
+        resolutionDropdown.RefreshShownValue();
         LoadSettings(currentResolutionIndex);
-        resolutionDropdown.onValueChanged.AddListener(delegate {
-            SetResolution(resolutionDropdown.value);
-        });
     }
 
     public void SetResolution(int resolutionIndex)

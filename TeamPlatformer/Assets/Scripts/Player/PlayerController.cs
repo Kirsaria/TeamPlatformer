@@ -121,7 +121,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.tag == "Checkpoint")
         {
-            checkPoint = transform.position;
+            checkPoint = collision.transform.position;
         }
     }
 

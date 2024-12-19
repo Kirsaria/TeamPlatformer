@@ -122,6 +122,54 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &10341269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 10341271}
+  - component: {fileID: 10341270}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &10341270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10341269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0a6400f29dd37745bd3a13677e8a771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSource:
+  - {fileID: 1617603810}
+  - {fileID: 1439910844}
+  - {fileID: 1637776495}
+--- !u!4 &10341271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10341269}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 89.24606, y: 12.292345, z: 3.358612}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &20033352
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,8 +417,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00003210557, y: -47.212975}
-  m_SizeDelta: {x: 320.4402, y: 94.4251}
+  m_AnchoredPosition: {x: 2.9999, y: -147}
+  m_SizeDelta: {x: 557.0613, y: 92.946}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &106138992
 MonoBehaviour:
@@ -6453,8 +6501,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00027974442, y: 45.000027}
-  m_SizeDelta: {x: 288.0035, y: 69.0129}
+  m_AnchoredPosition: {x: 0.000061035, y: -28}
+  m_SizeDelta: {x: 498.4566, y: 84.8364}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &951470858
 MonoBehaviour:
@@ -8256,8 +8304,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00027974442, y: -136.99998}
-  m_SizeDelta: {x: 274.2363, y: 59.7723}
+  m_AnchoredPosition: {x: -0.000012398, y: -262}
+  m_SizeDelta: {x: 411.9542, y: 84.4084}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1582165429
 MonoBehaviour:
@@ -8555,10 +8603,10 @@ RectTransform:
   - {fileID: 951470857}
   m_Father: {fileID: 1698147894}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00027466, y: -0.000022888}
-  m_SizeDelta: {x: 800, y: 450}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.00018311, y: 0}
+  m_SizeDelta: {x: 0.00012207, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1637776494
 GameObject:
@@ -8848,7 +8896,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -9072,8 +9120,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000018115592, y: 156}
-  m_SizeDelta: {x: 800, y: 84.0442}
+  m_AnchoredPosition: {x: 0.000045776, y: 159}
+  m_SizeDelta: {x: 1308.186, y: 187.53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1987877650
 MonoBehaviour:
@@ -9097,7 +9145,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 6f556bdf8099265409fb09d82b979d5a, type: 3}
-    m_FontSize: 70
+    m_FontSize: 150
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -9308,3 +9356,4 @@ SceneRoots:
   - {fileID: 1617603811}
   - {fileID: 1637776496}
   - {fileID: 1698147894}
+  - {fileID: 10341271}
