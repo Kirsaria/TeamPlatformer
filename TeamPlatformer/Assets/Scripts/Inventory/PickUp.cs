@@ -19,6 +19,7 @@ public class PickUp : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        // Подбор звезды
         if (other.CompareTag("Player") && gameObject.CompareTag("Star"))
         {
             if (inventory.starSlotIndex == -1)
@@ -48,6 +49,7 @@ public class PickUp : MonoBehaviour
             }
         }
 
+        // Подбор одного из квестовых предметов 
         else if(other.CompareTag("Player") && (gameObject.CompareTag("Brush") || gameObject.CompareTag("Letter")))
         {
             for (int i = 1; i < inventory.slots.Length; i++)

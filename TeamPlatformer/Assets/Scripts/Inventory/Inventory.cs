@@ -13,7 +13,7 @@ public class Inventory : MonoBehaviour
 
     private void Start()
     {
-        inventoryOn = false;
+        inventoryOn = true;
     }
     public void Bag()
     {

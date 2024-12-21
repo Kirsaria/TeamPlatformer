@@ -152,20 +152,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private IEnumerator HandleDeath()
-    {
-        //Ожидание проигрывания анимации смерти
-        yield return new WaitForSeconds(2f);
-        // Восстанавливаем здоровье. Я добавила просто так
-        health = numberOfHearts;
-        ResetMaterial();
-        isDead = false;
-        //Сбрасываем состояние анимации смерти. Переход в состояние покоя
-        animator.SetBool("CharacterDeath", false);
-        transform.position = checkPoint;
-
-    }
-
 
     // Возвращение к материалу
     void ResetMaterial()

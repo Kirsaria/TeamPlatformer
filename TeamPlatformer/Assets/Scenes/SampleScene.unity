@@ -89925,10 +89925,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1.62
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 8.5
+  m_GravityScale: 3.42
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -90022,7 +90022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
-  jumpForce: 34
+  jumpForce: 12.9
   animator: {fileID: 0}
   health: 3
   numberOfHearts: 3
@@ -91283,9 +91283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a49b31a0efdaaa45b021d3a63c5ac3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damping: 2
-  offset: {x: 2, y: 1}
-  faceLeft: 0
 --- !u!114 &519420036
 MonoBehaviour:
   m_ObjectHideFlags: 0
